@@ -1,0 +1,31 @@
+# Loyalty program
+[HBR research](https://hbr.org/search?search_type=&term=loyalty&loaded=1)
+[](https://www.claruscommerce.com/blog/premium-loyalty-member-engagement/)
+[](https://www.shopify.co.uk/blog/loyalty-program)
+[](https://sleeknote.com/blog/customer-loyalty-programs)
+[](https://www.claruscommerce.com/blog/7-types-of-loyalty-programs-which-is-right-for-your-brand/)
+
+# Graph intelligence
+(https://www.graphistry.com/blog/what-is-graph-intelligence-how-and-why-the-best-companies-are-adopting-graph-visual-analytics-graph-ai-and-graph-neural-networks)
+[temporal knowledge Graph](https://analyticsindiamag.com/all-you-need-to-know-about-temporal-knowledge-graphs/)
+[AWS knowledge graph](https://www.amazon.science/blog/combining-knowledge-graphs-quickly-and-accurately)
+[GNN with rust](https://darianharrison89.medium.com/graph-neural-networks-with-rust-4681fee71933)
+
+# Open data
+[Taiwan National Palace](https://digitalarchive.npm.gov.tw/)
+[Harvard Digital Collections](https://library.harvard.edu/digital-collections)
+[Self Museum Japan](https://self-museum.cultural.jp/)
+[exhibit british](https://www.exhibit.so/)
+[national diet library collection](https://dl.ndl.go.jp/?__lang=en)
+[Kyoto Univesity](https://rmda.kulib.kyoto-u.ac.jp/)
+[cartography](https://www.davidrumsey.com/)
+[Vatican Library](https://digi.vatlib.it/)
+[Biblissima Portal - Frence](https://www.biblissima.fr/)
+[Cultural Japan](https://cultural.jp/)
+[Stanford Library](https://searchworks.stanford.edu/)
+[Princeton Art Museum](https://artmuseum.princeton.edu/)
+[Europeana](https://www.europeana.eu/en)
+[Center for Open Data in Humanities - Japan](http://codh.rois.ac.jp/)
+[IIIF](https://iiif.io/)
+[open cultural data](https://museum-id.com/unlocking-potential-next-open-cultural-data-museums-mia-ridge/)
+[national palace musuem](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
