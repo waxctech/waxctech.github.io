@@ -18,12 +18,14 @@
 - enable github page -> in github > setting > pages > enable github pages, source = /docs
 - create github project with automated review workflow
 
-# gitflow branching + github project (new)
+# gitflow setup
 - on gitflow plugin, select `gitflow init`: create gitflow structure, local/develop
 - push local/develop to remote/develop: due to missing in gitflow4idea plugin @TODO to fix
 
-# procedure for each new task
+# gitflow branching: procedure for each new task
+- *first thing first: fetch remote and update local*
 - on codestream plugin, create new issue (label: feature, bug, release, hotfix)
+- open gh ticket, assign project
 - on gitflow, `Start Feature`: use `name of issue ticket_#ticket number` in github, e.g. "issue_#1"
 - commit changes to local/feature branch, **do NOT push local/feature**
 - *when work done, always check conflict before PR:*
@@ -38,6 +40,7 @@
 - on codestream, create Pull Request
   - use branch name as PR name
   - change base from `main` to `develop`
+  - assign PR to project
 - perform code review by reviewer
 - use `squash and merged` to merge changes from remote/feature to remote/develop
 - update remote/develop to local/develop
@@ -46,26 +49,33 @@
 - resolved gh issue would be moved to done column by automation
 > for `Start Release`, repeat the same flow for `release-v0.1.0` but only hotfix is allowed for merging changes from develop should be blocked
 
-# .ignore vs .git/info/exclude
-- files/ignore rules that have to be universally ignored should go in .gitignore
-- otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
+# commit message best practice
+- do not use force push
+- only commit changes on the same topic
+- commit message:
+```
+  subject = issue ticket name and #number
+  <empty line> 
+  Body = detail explanation, diff than before, reason for changes, anything to watch out for?
+  resolves: #ticket_number
+```
 
 # branching strategies: gitflow vs github flow
 - use gitflow for multi teams, complex workflow before go-live
 - using github flow for few branches small commits but required high quality QA test automation
 - long running branch (main or dev) vs short lived branches (e.g. feature)
 - 
-# commit message best practices
-- do not use force push
-- only commit changes on the same topic
-- staging new files
-- `git add -p filename` _patch mode_ selective for line of changes in specific file
-- commit message:
-```
-  subject = issue ticket name and #number
-  <empty line> 
-  Body = detail explanation, diff than before, reason for changes, anything to watch out for?
-```
+# create mdbook in repo
+- `mdBook init docs`: initialized mdbook in docs
+- `n`: do not add docs in .gitignore
+- `cd docs`
+- `mdBook build`: build mdbook in docs
+
+# .ignore vs .git/info/exclude
+- files/ignore rules that have to be universally ignored should go in .gitignore
+- otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
+
+
 
 # conflict resolution in github flow
 - github flow w/ local merge (remote main > local feature > local main > github flow)
@@ -118,3 +128,4 @@
 [git tutorial by altlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 [gitflow tutorial](https://git.logikum.hu/flow/init)
 [gitflow4idea plugin](https://plugins.jetbrains.com/plugin/18320-git-flow-integration-plus)
+[good commit message](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)

@@ -1,20 +1,14 @@
-# intellij setup
-- in git panel -> show hash
-- soft-wrap on
-
-# gitflow plugin setup
--check `push on finish feature'
--check `push on finish release'
-
-#  VCode setup
+# VCode setup (if needed)
 - rust analyzer, Darcula Theme, gitlens
 
-# create mdbook in repo
-- `mdBook init docs`: initialized mdbook in docs
-- `n`: do not add docs in .gitignore
-- `cd docs`
-- `mdBook build`: build mdbook in docs
+# intellij community setup (default)
+- in git panel -> show hash
+- soft-wrap on
+- update keymap
 
+# gitflow4idea plugin setup
+- check `push on finish feature`
+- check `push on finish release`
 
 # Diagrams as code
 - `brew install graphviz`
@@ -29,8 +23,8 @@
 - material theme UI
 - gitflow integration plus
 - newrelic codestream
-- plantuml
-- rust, toml, grcov, evcxr plugin: for rust
+- plantumlw
+- rust, toml, grcov, evcxr plugin: required for rust
 - *TODO*
 - ignore
 - CSV

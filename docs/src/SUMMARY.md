@@ -3,7 +3,7 @@
 
 # Environment Setting
 - [Modern Unix](DEV-Unix.md)
-- [Git](DEV-Git.md)
+- [Git Practices](DEV-Git.md)
 - [Rust](DEV-Rust.md)
 
 # Practices
