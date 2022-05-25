@@ -1,9 +1,12 @@
-# Interests 
+# Core Value
+- Performance, Safety, Precision
+
+# Interest
 - pursue innovative computer scientist
-- understand the world
+- understand the relationship of world entities
 - create social value
 
-# Research Model
+# Research Practice
 - review master plan
 - watch video on key concept > online course
 - summarize learning as reference
@@ -12,11 +15,11 @@
 - strategy: Competitive Advantage, Market size, bayesian probability, PESTAL
 - opportunity: increase revenue, reduce cost, increase customer satisfaction, improve operation efficiency
 - prioritize milestone (m1-m4) -> target
-- financial model: cost-benefit, NPS, DAU, CR, O/d, AOV, NMV, Revenue, Profit, 
+- financial model: cost-benefit, NPS, DAU, CR, O/d, AOV, NMV, Revenue, Profit,
 - risk assessment: dependency, constraint, change impact, opportunity cost
 
 # Problem Statement
-- problem statement: people, process, tech 
+- problem statement: people, process, tech
 - gap analysis: ask 5 why > root cause  (c1-c4)
 - capability level
 
@@ -24,11 +27,11 @@
 - initialize milestones (m1-m4) -> resolve root causes (c1-c4) -> target
 - improve people, process, tech
 - logical architecture, solution architecture
-  
+
 # Action & Success Criteria
 - project timeline (m1-m4)
-- stakeholder matrix  
-- quality management 
+- stakeholder matrix
+- quality management
 - change management
 - marketing channel
 
@@ -44,5 +47,4 @@
 - Non-Disclosure Agreement Template (for partners)
 - Pricing option, Terms & Conditions (for customers)
 - Investor & Startup Term Sheet Template (for investors)
-
 

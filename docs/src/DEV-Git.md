@@ -1,4 +1,4 @@
-# Key Topics:
+# Key Area
 - comment best practices
 - branching strategy
 - pull request
@@ -10,6 +10,56 @@
 - git config --global user.email "name@mail.com" // setup email
 - git config --global user.email // check setup email
 - install gitlens plugin for VS
+
+
+# setup
+1. create github repo (public)
+   in github > setting > pages > enable github pages, source = /docs
+- in project repo directory
+
+- create github project
+
+> mdBook init docs
+> "n" do not add docs in .gitignore
+> cd docs
+> mdBook build
+
+
+2. in the repo -> create github project -> create issue #1
+
+- gitflow init
+- in git panel -> show hash
+- in local develop repo, push to remote develop
+- gitflow start feature branch "issue #1" (i.e., issue ticket no.)
+- commit message with "resolved #1"
+- when done > *Note*"fetch all remote"  and update any new changes
+- if conflict, "rebase feature/issue#1" onto "develop"
+- for conflict before publish feature
+- create PR with codestream
+- change base from main to develop
+- PR title "Use branch name" with resolved #1 in comment
+- code review
+- squash and (merged) feature to remote and then local develop
+- start release, publish, update main, finish release
+- back push local develop to remote develop
+
+
+
+# Diagrams as code
+[cloud arh](https://diagrams.mingrammer.com/)
+https://github.com/plantuml-stdlib/C4-PlantUML
+[plantuml](https://plantuml.com/en/)
+
+- brew install graphviz
+  [asciidoc](https://docs.asciidoctor.org/diagram-extension/latest/#meme)
+  https://asciidoc.org/
+  https://vega.github.io/vega/
+  https://vega.github.io/vega-lite/
+
+
+In general, files/ignore rules that have to be universally ignored should go in .gitignore, and otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
+
+
 
 # git repo setup
 - create a repo in github under organisation
@@ -87,11 +137,12 @@
 12. if multiple features are merged to develop, ready for release, branch release with ver numbering (v0.1.0)
 
 # Reference:
-[^1]: [basic git by freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
-[^2]: [advanced git by freecodecamp](https://www.youtube.com/watch?v=Uszj_k0DGsg)
-[^3]: [commit convention by git journal](https://github.com/saschagrunert/git-journal/)
-[^4]: [git fork](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/)
-[^5]: [MERGE vs REBASE](https://www.gitkraken.com/learn/git/problems/git-rebase-vs-merge)
-[^6]: [how to gitflow:](https://github.com/petervanderdoes/gitflow-avh)
+[basic git by freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
+[advanced git by freecodecamp](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+[commit convention by git journal](https://github.com/saschagrunert/git-journal/)
+[git fork](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/)
+[MERGE vs REBASE](https://www.gitkraken.com/learn/git/problems/git-rebase-vs-merge)
+[how to gitflow:](https://github.com/petervanderdoes/gitflow-avh)
 [git cheat sheet - interactive](https://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
 [git altlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+[gitflow tutorial](https://git.logikum.hu/flow/init)

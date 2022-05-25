@@ -54,6 +54,5 @@ https://sinoglobalcap.medium.com/why-we-are-bullish-on-solana-c2be784cfdf6
 [NFT storage](https://nft.storage/)
 [NFT research paper](https://fs.hubspotusercontent00.net/hubfs/20137703/REPORTS/2021/2021_NFT%20Market%20Report%20Y_EN_FREE.pdf?utm_medium=email&_hsmi=206293937&utm_content=206293937&utm_source=hs_automation)
 [CIVIC with solana](https://www.coindesk.com/business/2021/09/23/why-civic-is-building-defi-identity-tools-on-solana/)
-
 [CBI report Q1, 2022](https://www.cbinsights.com/reports/CB-Insights_Blockchain-Report-Q1-2022.pdf?)
     - 600B annual global investment, around 150B per quarter. Blockchain has taken 10% of total 

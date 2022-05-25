@@ -4,3 +4,23 @@ language = "en"
 multilingual = false
 src = "src"
 title = "The Book"
+description = "The book covers software research and development."
+
+[rust]
+edition = "2021"
+
+[build]
+create-missing = true
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html]
+mathjax-support = true
+
+[output.html.search]
+limit-results = 15
+
+[output.html.playground]
+editable = true
