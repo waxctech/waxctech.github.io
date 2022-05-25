@@ -9,19 +9,6 @@ total dev 25m worldwide -> 50% JS, 50% Java & Python.
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 # update rustup
 `rustup update`
-# install rust analyzer VCode plugin
-`https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer`
-install better toml, grcov, evcxr plugin
-
-# VC themes
-- Darcula Theme
-
-# intellij plugin
-* toml and rust, grcov plugin, setup cargo project, git flow integration plus
-
-# intellij theme
-- install material darkers theme
-
 
 # cargo new project
 `cargo new hello_world --bin --vcs git`

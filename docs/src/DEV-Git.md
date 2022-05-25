@@ -1,93 +1,75 @@
-# Key Area
-- comment best practices
+# git advance topics
 - branching strategy
 - pull request
 - conflict resolution 
+- commit message best practices
 
 # git client setup
-- brew uninstall git-flow (if ver 1.4. gitflow installed)
-- brew install git-flow-avh
-- git config --global user.email "name@mail.com" // setup email
-- git config --global user.email // check setup email
-- install gitlens plugin for VS
+- `brew uninstall git-flow` (if ver 1.4. gitflow installed)
+- `brew install git-flow-avh`, 1.12.3 (AVH Edition)
+- `git config --global user.email "name@mail.com"`: setup email
+- `git config --global user.email`: check setup email
 
-
-# setup
-1. create github repo (public)
-   in github > setting > pages > enable github pages, source = /docs
-- in project repo directory
-
-- create github project
-
-> mdBook init docs
-> "n" do not add docs in .gitignore
-> cd docs
-> mdBook build
-
-
-2. in the repo -> create github project -> create issue #1
-
-- gitflow init
-- in git panel -> show hash
-- in local develop repo, push to remote develop
-- gitflow start feature branch "issue #1" (i.e., issue ticket no.)
-- commit message with "resolved #1"
-- when done > *Note*"fetch all remote"  and update any new changes
-- if conflict, "rebase feature/issue#1" onto "develop"
-- for conflict before publish feature
-- create PR with codestream
-- change base from main to develop
-- PR title "Use branch name" with resolved #1 in comment
-- code review
-- squash and (merged) feature to remote and then local develop
-- start release, publish, update main, finish release
-- back push local develop to remote develop
-
-
-
-# Diagrams as code
-[cloud arh](https://diagrams.mingrammer.com/)
-https://github.com/plantuml-stdlib/C4-PlantUML
-[plantuml](https://plantuml.com/en/)
-
-- brew install graphviz
-  [asciidoc](https://docs.asciidoctor.org/diagram-extension/latest/#meme)
-  https://asciidoc.org/
-  https://vega.github.io/vega/
-  https://vega.github.io/vega-lite/
-
-
-In general, files/ignore rules that have to be universally ignored should go in .gitignore, and otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
-
-
-
-# git repo setup
-- create a repo in github under organisation
+# github repo setup
+- create github repo in organization
+- `gh repo clone waxctech/waxctech.github.io` in $home/Repo
+- `git remote`: if repo has been created in local, add reference link to remote repo to local repo
 - add member to access repo
-- `gh repo clone man-chi/plaftform` in $home/Repo
-- `git remote` // if repo has been created local, add reference lin0k to remote repo to local repo
+- enable github page -> in github > setting > pages > enable github pages, source = /docs
+- create github project with automated review workflow
 
-# github flow (remote main > local feature > remote feature > remote main > local main)
-- `git branch` // check the current branch
-- `git checkout -b feature-PLAT-1` // - b create a new branch
-- > use branch naming convention: `feature`-`<jira project key>`-`<jira ticket number>` or `fix`
-- `git checkout feature-PLAT-1` // switch to existing feature branch
-- write code for feature platform ticket
-- `git status` // list all changes since last commit. alias: `gst`
-- `git add .` // if newly created, stage changes in local. alias: `gaa`
-- `git commit -am "resolved #PLAT-1"` // commit changes in local using comment convention [^2]. alias: `gcam`
-- `git diff main` //  compare difference between feature and main. alias: `gd`
-- clean up your code with an interactive rebase before submitting your pull request.
-- `git push -u origin feature-PLAT-1` // push changes to remote; origin refers to remote/feature repo
-- create Pull Request on github by author
-- perform quality metrics and change review on github by reviewer
-- merge pull request from remote/feature to remote/main by approver
-- `git checkout main` // switch back to main branch
-- `git pull main` // rebase main
-- `git branch -d feature-PLAT-1` // delete local feature branch
+# gitflow branching + github project (new)
+- on gitflow plugin, select `gitflow init`: create gitflow structure, local/develop
+- push local/develop to remote/develop: due to missing in gitflow4idea plugin @TODO to fix
 
-# github flow w/ local merge (remote main > local feature > local master > github flow)
-- if remote is blocked, do local merge first to keep local main with latest changes
+# procedure for each new task
+- on codestream plugin, create new issue (label: feature, bug, release, hotfix)
+- on gitflow, `Start Feature`: use `name of issue ticket_#ticket number` in github, e.g. "issue_#1"
+- commit changes to local/feature branch, **do NOT push local/feature**
+- *when work done, always check conflict before PR:*
+  - fetch all `remote`
+  - update all `local`
+- if conflicted, rebase:  
+  - checkout `local/develop`
+  - rebase `local/main` on `local/develop`
+  - checkout `local feature/issue_#1`
+  - rebase `local/feature/issue_#1` onto `local/develop`
+  - on gitflow, `Publish Feature`: push changes from local/feature to remote/feature
+- on codestream, create Pull Request
+  - use branch name as PR name
+  - change base from `main` to `develop`
+- perform code review by reviewer
+- use `squash and merged` to merge changes from remote/feature to remote/develop
+- update remote/develop to local/develop
+- on gitflow, `Finish Feature`: delete feature branch
+- push from local/develop to remote/develop
+- resolved gh issue would be moved to done column by automation
+> for `Start Release`, repeat the same flow for `release-v0.1.0` but only hotfix is allowed for merging changes from develop should be blocked
+
+# .ignore vs .git/info/exclude
+- files/ignore rules that have to be universally ignored should go in .gitignore
+- otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
+
+# branching strategies: gitflow vs github flow
+- use gitflow for multi teams, complex workflow before go-live
+- using github flow for few branches small commits but required high quality QA test automation
+- long running branch (main or dev) vs short lived branches (e.g. feature)
+- 
+# commit message best practices
+- do not use force push
+- only commit changes on the same topic
+- staging new files
+- `git add -p filename` _patch mode_ selective for line of changes in specific file
+- commit message:
+```
+  subject = issue ticket name and #number
+  <empty line> 
+  Body = detail explanation, diff than before, reason for changes, anything to watch out for?
+```
+
+# conflict resolution in github flow
+- github flow w/ local merge (remote main > local feature > local main > github flow)
+- if remote is blocked, do local merge first to keep local main with the latest changes
 - `git checkout feature`
 - `git diff main`
 - `git merge main`
@@ -95,54 +77,44 @@ In general, files/ignore rules that have to be universally ignored should go in 
 # undo a conflict and start over
 - `git merge --abort` or  `git rebase --abort`
 
-# temp storage for changes instead of commit_
-- `git stash` 
+# temp storage for changes instead of commit
+- `git stash`
 
 # undo changes
 - `git revert` (preferred) append commit applies inverse changes
 - `gloga` // git log with graph decorator
 
 # folk vs clone
-- git folk is to create a copy of repo from one github account into your github account, whereas clone is from your repo to local [^3].
+- git folk is to create a copy of repo from one github account into your github account
+- clone is from your repo to local.
 
-# commit message - best practices
-- only commit changes on the same topic
-- using staging
-- `git add -p filename` _patch mode_ selective for line of changes in specific file
-- commit message:
-  subject = concise summary of what happened
-  `empty line` 
-  Body = detail explanation, diff than before, reason for changes, anything to watch out for?
-- do not use force push
+# github flow (deprecated by gitflow)
+- workflow: remote main > local feature > remote feature > remote main > local main 
+- `git branch`: check the current branch
+- `git checkout -b feature-PLAT-1`: - b create a new branch
+- `feature`-`<jira project key>`-`<jira ticket number>`: branch naming convention
+- `git checkout feature-PLAT-1`: switch to existing feature branch
+- write code for feature platform ticket
+- `git status`: list all changes since last commit. alias: `gst`
+- `git add .`: if newly created, stage changes in local. alias: `gaa`
+- `git commit -am "resolved #PLAT-1"`: commit changes in local using comment convention [^2]. alias: `gcam`
+- `git diff main`: compare difference between feature and main. alias: `gd`
+- clean up your code with an interactive rebase before submitting your pull request.
+- `git push -u origin feature-PLAT-1` // push changes to remote; origin refers to remote/feature repo
+- create Pull Request on github by author
+- perform quality metrics and change review on github by reviewer
+- merge pull request from remote/feature to remote/main by approver
+- `git checkout main` // switch back to main branch
+- `git pull main` // sync changes from remote/main to local/main
+- `git branch -d feature-PLAT-1` // delete local feature branch
 
-# branching strategies
-- using github flow (instead of gitflow)
-- few branches
-- small commits
-- high quality QA test automation
-- long running branch (main or dev) vs short lived branches (e.g. feature)
-
-# git flow branching
-1. create ticket in JIRA, mapping to gitflow short-lived branch  (TASK=FEATURE, sub-task=BUGFIX, epic=RELEASE-0.1.0, bug=HOTFIX)
-2. copy branch name from JIRA ticket, e.g. `PLAT-9-research-on-git-flow-avh`
-3. gitflow action > "Start Feature" branch, e.g. `PLAT-9-research-on-git-flow-avh`
-4. work on changes
-5. cmd+0 checkbox changes, message changes, commit changes to the local feature branch starting with "PLAT-9 ..." (DON'T use git push)
-6. gitflow action > "Publish Feature" branch (DON'T finish branch), changes will be committed to remote feature branch
-7. create pull request with title `PLAT-9-research-on-git-flow-avh`, set marge target to develop <- feature
-8. perform code review and approve merge code to develop
-9. update local develop
-10. gitflow `finish feature branch`, remove feature branch
-11. if bug is found on develop branch, start bugfix git flow branch using jira sub-task (continue step 1)
-12. if multiple features are merged to develop, ready for release, branch release with ver numbering (v0.1.0)
-
-# Reference:
-[basic git by freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
-[advanced git by freecodecamp](https://www.youtube.com/watch?v=Uszj_k0DGsg)
-[commit convention by git journal](https://github.com/saschagrunert/git-journal/)
-[git fork](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/)
-[MERGE vs REBASE](https://www.gitkraken.com/learn/git/problems/git-rebase-vs-merge)
+# Reference
+[interactive git cheat sheet](https://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
+[basic git video by freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
+[advanced git video by freecodecamp](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+[git tutorial by gitkraken](https://www.gitkraken.com/learn/git)
+[merge vs rebase](https://www.gitkraken.com/learn/git/problems/git-rebase-vs-merge)
 [how to gitflow:](https://github.com/petervanderdoes/gitflow-avh)
-[git cheat sheet - interactive](https://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
-[git altlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+[git tutorial by altlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 [gitflow tutorial](https://git.logikum.hu/flow/init)
+[gitflow4idea plugin](https://plugins.jetbrains.com/plugin/18320-git-flow-integration-plus)

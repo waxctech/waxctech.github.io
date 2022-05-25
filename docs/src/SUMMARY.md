@@ -1,7 +1,7 @@
 # Summary
 [Introduction](README.md)
 
-# Getting Started
+# Environment Setting
 - [Modern Unix](DEV-Unix.md)
 - [Git](DEV-Git.md)
 - [Rust](DEV-Rust.md)
