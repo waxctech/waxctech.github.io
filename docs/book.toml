@@ -12,15 +12,18 @@ edition = "2021"
 [build]
 create-missing = true
 
-[preprocessor.index]
-
-[preprocessor.links]
-
-[output.html]
-mathjax-support = true
+#[output.html]
+#mathjax-support = true
 
 [output.html.search]
 limit-results = 15
 
 [output.html.playground]
 editable = true
+
+# using Mermaid - Diagram as Code
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]

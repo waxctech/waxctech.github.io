@@ -1,5 +1,5 @@
 # Summary
-[Introduction](README.md)
+[Introduction](culture.md)
 
 # Environment Setting
 - [Modern Unix](DEV-Unix.md)

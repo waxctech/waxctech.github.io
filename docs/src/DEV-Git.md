@@ -44,8 +44,7 @@
 - perform code review by reviewer
 - use `squash and merged` to merge changes from remote/feature to remote/develop
 - update remote/develop to local/develop
-- on gitflow, `Finish Feature`: delete feature branch
-- push from local/develop to remote/develop
+- on gitflow, `Finish Feature`: delete feature branch, auto push from local/develop to remote/develop
 - resolved gh issue would be moved to done column by automation
 > for `Start Release`, repeat the same flow for `release-v0.1.0` but only hotfix is allowed for merging changes from develop should be blocked
 
@@ -64,18 +63,10 @@
 - use gitflow for multi teams, complex workflow before go-live
 - using github flow for few branches small commits but required high quality QA test automation
 - long running branch (main or dev) vs short lived branches (e.g. feature)
-- 
-# create mdbook in repo
-- `mdBook init docs`: initialized mdbook in docs
-- `n`: do not add docs in .gitignore
-- `cd docs`
-- `mdBook build`: build mdbook in docs
 
 # .ignore vs .git/info/exclude
 - files/ignore rules that have to be universally ignored should go in .gitignore
 - otherwise files that you want to ignore only on your local clone should go into .git/info/exclude
-
-
 
 # conflict resolution in github flow
 - github flow w/ local merge (remote main > local feature > local main > github flow)

@@ -342,12 +342,14 @@ https://css-tricks.com/creating-dynamic-routes-in-a-nuxt-application/
 https://templates.netlify.com/template/netlifycms-gridsome/
 [A Jamstack framework for Vue.js] (https://gridsome.org/)
 
-#  benchmark
+# Open Open index
 [ROSS index](https://runacap.com/ross-index/)
 [](https://medium.com/runacapital/open-source-growth-benchmarks-and-the-20-fastest-growing-oss-startups-d3556a669fe6)
 [](https://medium.com/runacapital/open-source-growth-benchmarks-extention-the-ross-index-and-the-fastest-growing-startups-in-q3-2020-7aee7fa7eed7)
 [awesome OSS list](https://github.com/RunaCapital/awesome-oss-alternatives)
 (https://medium.com/runacapital/open-source-analysis-and-os-databases-1eb1fe840719)
+[gitplanet](https://gitplanet.com/)
+[kandi](https://kandi.openweaver.com/home)
 
 # awewsome list
 [public datasets](https://github.com/awesomedata/awesome-public-datasets)
@@ -396,3 +398,10 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 [SSL](http://www.cheat-sheets.org/saved-copy/Ssl_handshake_with_two_way_authentication_with_certificates-1.pdf)
 [VS Code cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 [intellij cheat](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+
+
+# Rust & Kotlin
+very interesting post: (https://www.beust.com/weblog/what-kotlin-could-learn-from-rust/)
+https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/
+[The State of Developer Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/)
+[cool app written in haskell](http://detexify.kirelabs.org/classify.html)
