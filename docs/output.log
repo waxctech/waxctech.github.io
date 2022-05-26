@@ -1,0 +1,85 @@
+INFO - --- Started preprocessor ---
+DEBUG - resolving host="localhost"
+DEBUG - connecting to 127.0.0.1:8080
+DEBUG - adding I/O source: 0
+DEBUG - scheduling Write for: 0
+DEBUG - dropping I/O source: 0
+DEBUG - connecting to [::1]:8080
+DEBUG - adding I/O source: 4194304
+DEBUG - scheduling Write for: 0
+DEBUG - dropping I/O source: 0
+ERROR - Failed to generate PlantUML diagram.
+INFO - --- Started preprocessor ---
+DEBUG - resolving host="localhost"
+DEBUG - connecting to 127.0.0.1:8080
+DEBUG - adding I/O source: 0
+DEBUG - scheduling Write for: 0
+DEBUG - dropping I/O source: 0
+DEBUG - connecting to [::1]:8080
+DEBUG - adding I/O source: 4194304
+DEBUG - scheduling Write for: 0
+DEBUG - dropping I/O source: 0
+ERROR - Failed to generate PlantUML diagram.
+INFO - --- Started preprocessor ---
+DEBUG - resolving host="localhost"
+DEBUG - connecting to 127.0.0.1:3000
+DEBUG - adding I/O source: 0
+DEBUG - scheduling Write for: 0
+DEBUG - connected to Some(127.0.0.1:3000)
+DEBUG - scheduling Read for: 0
+DEBUG - scheduling Read for: 0
+DEBUG - flushed 153 bytes
+DEBUG - read 8192 bytes
+DEBUG - parsed 5 headers
+DEBUG - incoming body is content-length (11541 bytes)
+DEBUG - Response: '404 Not Found' for http://localhost:3000/plantuml/svg/SoWkIImgAStDuN9KqDMjiLDmud98pKi12G00
+DEBUG - read 3528 bytes
+DEBUG - incoming body completed
+DEBUG - scheduling Read for: 0
+DEBUG - scheduling Read for: 0
+DEBUG - scheduling Read for: 0
+DEBUG - pooling idle connection for "http://localhost:3000"
+DEBUG - dropping I/O source: 0
+INFO - DirCleaner - Keeping /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - --- Started preprocessor ---
+INFO - DirCleaner - Found existing file /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - DirCleaner - Keeping /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - --- Started preprocessor ---
+INFO - DirCleaner - Found existing file /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - DirCleaner - Keeping /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - --- Started preprocessor ---
+INFO - DirCleaner - Found existing file /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+DEBUG - DirCleaner - Removed file /Users/mac/Repo/waxctech.github.io/docs/src/mdbook-plantuml-img/099ffab5f5e292799ab82f248bfb3d1623fc5500.svg
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
+INFO - --- Started preprocessor ---
