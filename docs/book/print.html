@@ -32,6 +32,8 @@
 
         <!-- Custom theme stylesheets -->
 
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body>
         <!-- Provide site root to javascript -->
@@ -82,7 +84,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="culture.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setting</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Practices</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust</a></li><li class="chapter-item expanded affix "><li class="part-title">Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">4.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Modelling</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -149,7 +151,8 @@
 </ul>
 <h1 id="rules"><a class="header" href="#rules">Rules</a></h1>
 <ul>
-<li>plan priority first</li>
+<li>purse open source development model</li>
+<li>plan for priority first</li>
 <li>avoid multi tasking</li>
 </ul>
 <h1 id="interest"><a class="header" href="#interest">Interest</a></h1>
@@ -208,6 +211,8 @@
 <li>Pricing option, Terms &amp; Conditions (for customers)</li>
 <li>Investor &amp; Startup Term Sheet Template (for investors)</li>
 </ul>
+<h1 id="maths"><a class="header" href="#maths">Maths</a></h1>
+<p>$$ \mu = \frac{1}{N} \sum_{i=0} x_i $$</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="modern-unix-command"><a class="header" href="#modern-unix-command">Modern Unix command</a></h1>
 <ul>
 <li><code>bat</code>: modern of <code>cat</code></li>
@@ -281,6 +286,7 @@
 <li><a href="https://www.thegeekstuff.com/sed-awk-101-hacks-ebook/">sed and awk cheatsheet</a></li>
 <li><a href="https://practicalunix.org/">Practical Unix from Stanford</a></li>
 <li><a href="https://github.com/ibraheemdev/modern-Unix">Modern Unix</a></li>
+<li><a href="https://hackr.io/blog/awk-command-unix-linux-examples">top awk example</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="git-advance-topics"><a class="header" href="#git-advance-topics">git advance topics</a></h1>
 <ul>
@@ -434,8 +440,13 @@ total dev 25m worldwide -&gt; 50% JS, 50% Java &amp; Python.</p>
 <h1 id="modern-programming-focus"><a class="header" href="#modern-programming-focus">modern programming focus</a></h1>
 <ul>
 <li>speed, stability, concurrency, functional programming</li>
-<li></li>
 </ul>
+<p>editor</p>
+<pre><pre class="playground"><code class="language-rust editable edition2021">fn main() {
+    let number = 5;
+    print!(&quot;{}&quot;, number);
+}
+</code></pre></pre>
 <h1 id="install-rustup"><a class="header" href="#install-rustup">install rustup</a></h1>
 <p><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></p>
 <h1 id="update-rustup"><a class="header" href="#update-rustup">update rustup</a></h1>
@@ -548,6 +559,145 @@ Thread-safe data structures: crossbeam.</p>
 <a href="https://areweipfsyet.rs/">IPFS</a>
 <a href="https://www.arewelearningyet.com/">machine learning</a></p>
 <p><a href="https://sdacademy.dev/difference-between-functional-programming-and-object-oriented-programming/">The Difference between Functional Programming and Object-Oriented Programming</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="plantuml-installation"><a class="header" href="#plantuml-installation">Plantuml Installation</a></h1>
+<ul>
+<li><code>$cargo install mdbook-graphviz</code></li>
+<li><code>$cargo install mdbook-plantuml</code> : require to change source code for &quot;graphviz&quot;</li>
+<li><code>$brew install graphviz</code> : current 3.0.0</li>
+<li><code>$brew install plantuml</code> : current 1.2022.5</li>
+<li>for C4, remove any string after @startuml, otherwise mdbook will not render</li>
+</ul>
+<h1 id="install-mdbook-preprocessor-in-booktoml"><a class="header" href="#install-mdbook-preprocessor-in-booktoml">install mdbook preprocessor in book.toml</a></h1>
+<pre><code class="language-toml">[preprocessor.plantuml]
+plantuml-cmd=&quot;/usr/local/bin/plantuml&quot;
+</code></pre>
+<h1 id="container-view"><a class="header" href="#container-view">Container View</a></h1>
+<ul>
+<li>sample with links, showing connection protocol between services</li>
+</ul>
+<p><img src="mdbook-plantuml-img/d9eef14deeb4af6b1dd397da54796872a772de0d.svg" alt="" /></p>
+<h1 id="system-context-view"><a class="header" href="#system-context-view">System Context View</a></h1>
+<p><img src="mdbook-plantuml-img/10655114930abc66c906ef518dbd7815368e9006.svg" alt="" /></p>
+<h1 id="container-view---shows-application-service-microservice-etc"><a class="header" href="#container-view---shows-application-service-microservice-etc">Container View - shows application, service, microservice, etc</a></h1>
+<p><img src="mdbook-plantuml-img/489a9f15da3fdc2e7c99789c8e5768211ac93188.svg" alt="" /></p>
+<h1 id="component-view"><a class="header" href="#component-view">Component View</a></h1>
+<p><img src="mdbook-plantuml-img/a2ed95aabd3d92a120a39bda04b61bc42454b469.svg" alt="" /></p>
+<h1 id="system-landscape-view"><a class="header" href="#system-landscape-view">System Landscape View</a></h1>
+<p><img src="mdbook-plantuml-img/6bdbd26eb34e8a64aef010b7769dd4f8eb95894f.svg" alt="" /></p>
+<h1 id="dynamic-view"><a class="header" href="#dynamic-view">Dynamic View</a></h1>
+<p><img src="mdbook-plantuml-img/e5996a951d705d1990870027aabc0b1cc2e399e3.svg" alt="" /></p>
+<h1 id="deployment-with-detail-view"><a class="header" href="#deployment-with-detail-view">Deployment with Detail View</a></h1>
+<p><img src="mdbook-plantuml-img/258ecbec834964b8d611fa1711d665a4d8c3e515.svg" alt="" /></p>
+<h1 id="container-view-on-messaging-bus"><a class="header" href="#container-view-on-messaging-bus">Container View on Messaging Bus</a></h1>
+<p><img src="mdbook-plantuml-img/7702a73df8b46a3efbd7a6cc4195da55fcaf3895.svg" alt="" /></p>
+<h1 id="reference-3"><a class="header" href="#reference-3">Reference:</a></h1>
+<ul>
+<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/samples/C4CoreDiagrams.md">C4 core diagram</a></li>
+<li><a href="https://c4model.com/#examples">C4 modelling</a></li>
+<li><a href="https://graphviz.org/">graphviz</a></li>
+<li><a href="https://diagrams.mingrammer.com/">cloud arh</a></li>
+<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML">C4-PlantUM</a></li>
+<li><a href="https://plantuml.com/en/">plantuml</a></li>
+<li><a href="https://github.com/awslabs/aws-icons-for-plantuml">aws plantuml</a></li>
+<li><a href="https://docs.asciidoctor.org/diagram-extension/latest/#meme">asciidoc</a></li>
+<li><a href="https://vega.github.io/vega/">VISUALIZATION GRAMMARS</a></li>
+<li><a href="%5Bhttps://vega.github.io/vega-lite/">vega-lite</a></li>
+<li><a href="https://kroki.io/#cheat-sheet">kroki</a>  - using it to support vega ?</li>
+<li><a href="https://github.com/mermaid-js/mermaid">mermaid demo</a></li>
+<li><a href="https://github.com/kbknapp/cargo-graph">cargo dependency graph</a></li>
+<li><a href="https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html">Tutorial on Plantuml</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="common-usage-and-example"><a class="header" href="#common-usage-and-example">Common Usage and Example</a></h1>
+<ul>
+<li>Architecture: C4 modelling, AWS, Azure, kubernetes, Elastics</li>
+<li>Programming: class, sequence, activity, parallel processing, state machine, process timeline, swagger open API</li>
+<li>Build &amp; Configuration: cargo, gradle, terraform, ansible</li>
+<li>Network: DNS, trace route, Firewall, routing, apache log, gpg/pgp, sitemap, isp mapper, tcpdump</li>
+<li>Data translation: json, db schema, Text read stdin, xml sql</li>
+<li>AI: keras neural network, Word formation, Topic extraction</li>
+<li>Profiler</li>
+<li>Knowledge map</li>
+<li>Domain storytelling</li>
+<li>Org chart WBS</li>
+<li>Gantt chart</li>
+<li>Material design icon</li>
+<li>Directed/ undirected graph, Mindmap</li>
+</ul>
+<h1 id="sequence"><a class="header" href="#sequence">Sequence</a></h1>
+<ul>
+<li>used for complex flow on calling external system</li>
+</ul>
+<p><img src="mdbook-plantuml-img/c4623f7ab1880995537ab6d8e23d941abfa82710.svg" alt="" /></p>
+<h1 id="class"><a class="header" href="#class">Class</a></h1>
+<ul>
+<li>used for design pattern</li>
+</ul>
+<p><img src="mdbook-plantuml-img/b17d6ca0551c173422d93422d8aeeaab8f995c67.svg" alt="" /></p>
+<h1 id="activity--workflow"><a class="header" href="#activity--workflow">Activity / Workflow</a></h1>
+<ul>
+<li>used for complex workflow </li>
+</ul>
+<p><img src="mdbook-plantuml-img/4cc6b84f2a93c7be41c795d82b7e8ad1ff77f260.svg" alt="" /></p>
+<h1 id="parallel-processing"><a class="header" href="#parallel-processing">Parallel Processing</a></h1>
+<p><img src="mdbook-plantuml-img/1f82f149315c5576138ddedfa85c0b6fcd990672.svg" alt="" /></p>
+<h1 id="state-machine"><a class="header" href="#state-machine">State Machine</a></h1>
+<p><img src="mdbook-plantuml-img/90d68554a9b4113468da1d64f8f7092762f1e666.svg" alt="" /></p>
+<h1 id="timeline"><a class="header" href="#timeline">Timeline</a></h1>
+<ul>
+<li>used to show lead time on each process</li>
+</ul>
+<p><img src="mdbook-plantuml-img/8ad70c00c61a5672cacbdcc58ec2e0feceda14e9.svg" alt="" /></p>
+<h1 id="network"><a class="header" href="#network">Network</a></h1>
+<p><img src="mdbook-plantuml-img/8008add7d22b8c7b204d5029a2ae5dddfeb6c3ed.svg" alt="" /></p>
+<h1 id="json-specification"><a class="header" href="#json-specification">JSON Specification</a></h1>
+<p><img src="mdbook-plantuml-img/9e342dea47579c6646084d1bb3bf7b80192831fb.svg" alt="" /></p>
+<h1 id="ditaa---diagrams-through-ascii-art"><a class="header" href="#ditaa---diagrams-through-ascii-art">DITAA - DIagrams Through Ascii Art</a></h1>
+<ul>
+<li><a href="http://ditaa.sourceforge.net/#usage">more ditaa example</a></li>
+</ul>
+<p><img src="mdbook-plantuml-img/52a13017372eaf8709968cd64378f7e124b0e3b9.png" alt="" /></p>
+<h1 id="gantt-chart"><a class="header" href="#gantt-chart">Gantt Chart</a></h1>
+<p><img src="mdbook-plantuml-img/94c1c4e3933e34fd189df7cff66676f048c86a5f.svg" alt="" /></p>
+<h1 id="mindmap"><a class="header" href="#mindmap">Mindmap</a></h1>
+<p><img src="mdbook-plantuml-img/fdd1d3e338a7724638744bf153975553fbe91369.svg" alt="" /></p>
+<h1 id="org-chart--wbs"><a class="header" href="#org-chart--wbs">Org Chart / WBS</a></h1>
+<p><img src="mdbook-plantuml-img/e57c2673f0663504b3f6fc4a9c16272658142746.svg" alt="" /></p>
+<h1 id="amazon-labs-aws"><a class="header" href="#amazon-labs-aws">Amazon Labs AWS</a></h1>
+<p><img src="mdbook-plantuml-img/19af7d6263c9c4637f772a595790083e639df75b.svg" alt="" /></p>
+<h1 id="azure-cloud"><a class="header" href="#azure-cloud">Azure Cloud</a></h1>
+<p><img src="mdbook-plantuml-img/b169e0fd57e0bec3439d6c551f33cbbaf92156ac.svg" alt="" /></p>
+<h1 id="elastic-search---elk"><a class="header" href="#elastic-search---elk">Elastic Search - ELK</a></h1>
+<p><img src="mdbook-plantuml-img/9e57f41044f4e1742c9944a1049c9a753aa85ada.svg" alt="" /></p>
+<h1 id="kubernetes"><a class="header" href="#kubernetes">Kubernetes</a></h1>
+<ul>
+<li><a href="https://github.com/dcasati/kubernetes-PlantUML">more k8s example</a></li>
+</ul>
+<p>PlantUML rendering error:
+PlantUML did not generate an image, did you forget the @startuml, @enduml block (/usr/local/bin/plantuml -tsvg -nometadata /var/folders/th/c_6w7gtd299fh13whmfhgsq80000gn/T/.tmpS3iEaL/bea6074f3e96ab33929173613e1100c0b6b7bb2f.puml)?</p>
+<h1 id="domain-storytelling"><a class="header" href="#domain-storytelling">Domain Storytelling</a></h1>
+<p><a href="https://github.com/johthor/DomainStory-PlantUML">ref</a></p>
+<p><img src="mdbook-plantuml-img/d43948757d9e1640f471308991acce4407e7da9c.svg" alt="" /></p>
+<h1 id="material-design-icon"><a class="header" href="#material-design-icon">Material Design Icon</a></h1>
+<p><img src="mdbook-plantuml-img/1b9cf5942713f2430ed60bbfcf4b415a2d1cb128.svg" alt="" /></p>
+<ul>
+<li>
+<h1 id="directed-graph"><a class="header" href="#directed-graph">Directed Graph</a></h1>
+</li>
+</ul>
+<p><img src="mdbook-plantuml-img/12f7b36f333868743d0911fc4e1c06360b41361d.svg" alt="" /></p>
+<ul>
+<li>
+<h1 id="undirected-graph"><a class="header" href="#undirected-graph">undirected Graph</a></h1>
+</li>
+</ul>
+<p><img src="mdbook-plantuml-img/91620532db6da952fb15f12bc45c51ebd1efd601.svg" alt="" /></p>
+<h1 id="theme"><a class="header" href="#theme">Theme</a></h1>
+<p><a href="https://the-lum.github.io/puml-themes-gallery/">list of official theme</a>
+<a href="https://bschwarz.github.io/puml-themes/gallery.html">gallery</a></p>
+<ol>
+<li>mars</li>
+<li>blueprint</li>
+</ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contributors"><a class="header" href="#contributors">Contributors</a></h1>
 
                     </main>
@@ -605,12 +755,12 @@ Thread-safe data structures: crossbeam.</p>
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="mermaid.min.js"></script>
-        <script type="text/javascript" src="mermaid-init.js"></script>
 
         <script type="text/javascript">
         window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
+            MathJax.Hub.Register.StartupHook('End', function() {
+                window.setTimeout(window.print, 100);
+            });
         });
         </script>
 

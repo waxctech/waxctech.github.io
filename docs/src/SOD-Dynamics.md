@@ -109,3 +109,5 @@ Discover a variety of visual management techniques.
 [IIIF](https://iiif.io/)
 [open cultural data](https://museum-id.com/unlocking-potential-next-open-cultural-data-museums-mia-ridge/)
 [national palace musuem](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
+[create graphdb from wikipedia data](https://github.com/mirkonasato/graphipedia)
+[EventKG](https://github.com/sgottsch/eventkg)

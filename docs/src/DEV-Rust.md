@@ -4,7 +4,17 @@ total dev 25m worldwide -> 50% JS, 50% Java & Python.
 
 # modern programming focus
 - speed, stability, concurrency, functional programming
-- 
+
+editor
+
+```rust,editable
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+
+
 # install rustup
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 # update rustup

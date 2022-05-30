@@ -69,3 +69,4 @@
 - [sed and awk cheatsheet](https://www.thegeekstuff.com/sed-awk-101-hacks-ebook/)
 - [Practical Unix from Stanford](https://practicalunix.org/)
 - [Modern Unix](https://github.com/ibraheemdev/modern-Unix)
+- [top awk example](https://hackr.io/blog/awk-command-unix-linux-examples)

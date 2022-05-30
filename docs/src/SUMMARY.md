@@ -1,12 +1,14 @@
 # Summary
-[Introduction](culture.md)
+[Introduction](README.md)
 
-# Environment Setting
-- [Modern Unix](DEV-Unix.md)
-- [Git Practices](DEV-Git.md)
-- [Rust](DEV-Rust.md)
+# Environment Setup
+- [Modern Unix Command](DEV-Unix.md)
+- [Git Convention](DEV-Git.md)
+- [Rust Programming](DEV-Rust.md)
+- [C4 Model Template](c4model.md))
+- [PlantUML Template](PlantUML.md)
 
-# Practices
+# Best Practices
 - [Analysis & Design]()
   - [System Analysis]()
   - [Architecture Design]()

@@ -372,8 +372,8 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 [LMAX - How to Do 100K TPS at Less than 1ms Latency](https://www.infoq.com/presentations/LMAX/)
 [mechanical sympathy](https://www.infoq.com/presentations/mechanical-sympathy/)
 [books on epoll, kqueue, IOCP](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/)
-(https://www.baeldung.com/lmax-disruptor-concurrency)
-(https://www.algotrader.com/intelligence/modern-trading-applications-architectures-an-overview-of-the-lmax-disruptor-pattern-and-project-reactor/)
+[](https://www.baeldung.com/lmax-disruptor-concurrency)
+[](https://www.algotrader.com/intelligence/modern-trading-applications-architectures-an-overview-of-the-lmax-disruptor-pattern-and-project-reactor/)
 
 # Popular Cheatsheet
 [Cheat Sheet](http://www.cheat-sheets.org/)
@@ -401,7 +401,8 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 
 
 # Rust & Kotlin
-very interesting post: (https://www.beust.com/weblog/what-kotlin-could-learn-from-rust/)
-https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/
+[kotlin vs rust:](https://www.beust.com/weblog/what-kotlin-could-learn-from-rust/)
+[](https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/)
 [The State of Developer Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/)
 [cool app written in haskell](http://detexify.kirelabs.org/classify.html)
+(https://blog.allegro.tech/2020/04/immutability-in-java.html)
