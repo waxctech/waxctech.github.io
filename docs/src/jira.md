@@ -3,3 +3,5 @@ testing on codestream plugin
 - select project name, issue type
   - adjust priority 
   - finished PLAT-20
+  - adjust priority - done0
+
