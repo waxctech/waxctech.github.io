@@ -1,2 +1,2 @@
 # waxctech.github.io
-WAXC Research &amp; Development
+Welcome to WAXC Technology Open Source

@@ -20,7 +20,7 @@
 
 # gitflow setup
 - on gitflow plugin, select `gitflow init`: create gitflow structure, local/develop
-- push local/develop to remote/develop: due to missing in gitflow4idea plugin @TODO to fix
+- push local/develop to remote/develop: due to missing in gitflow4idea plugin
 
 # gitflow branching: procedure for each new task
 - *first thing first: fetch remote and update local*

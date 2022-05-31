@@ -1,25 +1,22 @@
 # Summary
 [Introduction](README.md)
 
-# Environment Setup
+# Development Environment
 - [Modern Unix Command](DEV-Unix.md)
 - [Git Convention](DEV-Git.md)
+- [IntelliJ Setting](DEV-IDE.md)
 - [Rust Programming](DEV-Rust.md)
-- [C4 Model Template](c4model.md))
-- [PlantUML Template](PlantUML.md)
-- [jira](jira.md)
+- [C4 Model Template](DEV-C4-Model.md))
+- [PlantUML Template](DEV-PlantUML.md)
 
 # Best Practices
 - [Analysis & Design]()
-  - [System Analysis]()
-  - [Architecture Design]()
-- [Development]()
-  - [Blockchain]()
-- [Compliance]()
-  - [ISO]()
-- [Social Dynamics]()
-  - [System Dynamics]()
+- [Architecture Design](Architecture.md)
+- [Technology]()
+- [Blockchain](Blockchain.md)
+- [Compliance](Compliance.md)
+- [Social Dynamics](Social-Dynamics.md)
 
 -----------
 
-[Contributors](misc/contributors.md)
+[Contributors]()

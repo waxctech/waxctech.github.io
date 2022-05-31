@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Modelling</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Model Template</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> PlantUML Template</a></li><li class="chapter-item expanded "><a href="jira.html"><strong aria-hidden="true">6.</strong> jira</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">10.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="contributors.html">Contributors</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -146,13 +146,13 @@
                     <main>
                         <h1 id="core-value"><a class="header" href="#core-value">Core Value</a></h1>
 <ul>
-<li>Performance, Safety, Precision</li>
-</ul>
-<h1 id="rules"><a class="header" href="#rules">Rules</a></h1>
+<li>Performance, Safety, Compliance</li>
+<li>master in software development</li>
+<li>open source model
 <ul>
-<li>purse open source development model</li>
-<li>plan for priority first</li>
-<li>avoid multi tasking</li>
+<li>spring reactor, apache?, tokio, civic blockchain</li>
+</ul>
+</li>
 </ul>
 <h1 id="interest"><a class="header" href="#interest">Interest</a></h1>
 <ul>
@@ -236,22 +236,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html" class="active"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Modelling</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html" class="active"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Model Template</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> PlantUML Template</a></li><li class="chapter-item expanded "><a href="jira.html"><strong aria-hidden="true">6.</strong> jira</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">10.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="contributors.html">Contributors</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -258,6 +258,12 @@
 <li>git folk is to create a copy of repo from one github account into your github account</li>
 <li>clone is from your repo to local.</li>
 </ul>
+<h1 id="fetch-vs-pull"><a class="header" href="#fetch-vs-pull">fetch vs pull</a></h1>
+<ul>
+<li>fetch: only check and retrieve meta data from remote (without code merged)</li>
+<li>pull: copy change from remote (with code merged)</li>
+<li>update: intellij feature which combines fetch + pull</li>
+</ul>
 <h1 id="github-flow-deprecated-by-gitflow"><a class="header" href="#github-flow-deprecated-by-gitflow">github flow (deprecated by gitflow)</a></h1>
 <ul>
 <li>workflow: remote main &gt; local feature &gt; remote feature &gt; remote main &gt; local main </li>
@@ -320,22 +326,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
