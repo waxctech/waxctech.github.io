@@ -1,4 +1,4 @@
-# SOP
+# jira setup
 
 - create jira project -> link to github (same name)
 - in jira app, github configure -> connect github organization.
