@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Introduction - The Book</title>
+        <title>Modern Unix Command - The Book</title>
 
 
         <!-- Custom HTML head -->
@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Modelling</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Environment Setup</li><li class="chapter-item expanded "><a href="DEV-Unix.html" class="active"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">2.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">3.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="c4model.html"><strong aria-hidden="true">4.</strong> C4 Modelling</a></li><li class="chapter-item expanded "><a href="PlantUML.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Analysis & Design</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">6.1.</strong> System Analysis</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.2.</strong> Architecture Design</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Development</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Blockchain</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Compliance</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> ISO</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Social Dynamics</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> System Dynamics</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="misc/contributors.html">Contributors</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -144,81 +144,91 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="core-value"><a class="header" href="#core-value">Core Value</a></h1>
+                        <h1 id="modern-unix-command"><a class="header" href="#modern-unix-command">Modern Unix command</a></h1>
 <ul>
-<li>Performance, Safety, Precision</li>
+<li><code>bat</code>: modern of <code>cat</code></li>
+<li><code>exa</code>: modern of <code>ls</code>, e.g. <code>$exa --git -l --tree</code></li>
+<li><code>fd</code>: modern of <code>find</code>, e.g. <code>$fd ^foo</code></li>
+<li><code>rg</code>: modern of <code>grep</code></li>
+<li><code>jq</code>: sed for json data</li>
+<li><code>cheat</code>: cheatsheet, modern of <code>man</code></li>
+<li><code>tldr</code>: modern of <code>man</code></li>
+<li><code>btm</code>: modern of <code>top</code>, <code>bottom</code></li>
+<li><code>glances</code>: modern of <code>top</code></li>
+<li><code>dog</code>: DNS client, modern of <code>dig</code></li>
+<li><code>hyperfine</code>: benchmarking tool</li>
+<li><code>gping</code>: modern of <code>ping</code></li>
+<li><code>curlie</code>: modern of <code>curl</code></li>
+<li><code>dust</code>: modern of <code>du</code>, disk usage statistic by file</li>
+<li><code>duf</code>: modern of <code>du</code>, show disk free space</li>
+<li><code>wrk</code>: monitoring and benchmark </li>
 </ul>
-<h1 id="rules"><a class="header" href="#rules">Rules</a></h1>
+<h1 id="ssh---send-file-to-remote-ssh-host"><a class="header" href="#ssh---send-file-to-remote-ssh-host">ssh - Send file to remote ssh host</a></h1>
 <ul>
-<li>purse open source development model</li>
-<li>plan for priority first</li>
-<li>avoid multi tasking</li>
+<li><code>$SSH username@ip-address</code>: login into a remote Linux machine using SSH</li>
+<li><code>$put file</code>: upload ‘file’ from local to remote computer</li>
+<li><code>$get file</code>: Download ‘file’ from remote to local computer</li>
+<li><code>$quit</code>: Logout</li>
 </ul>
-<h1 id="interest"><a class="header" href="#interest">Interest</a></h1>
+<h1 id="tar---compression"><a class="header" href="#tar---compression">tar - compression</a></h1>
+<p><code>$ tar cvzf archive_name.tar dirname/</code>: compress
+<code>$ tar xvf archive_name.tar</code>: uncompress</p>
+<h1 id="sed---text-processor"><a class="header" href="#sed---text-processor">sed - text processor</a></h1>
+<p><code>$sed 's/.$//' filename</code>: Print file content in reverse order
+<code>$sed -n '1!G;h;$p' thegeekstuff.txt</code> Add line number for all non-empty-lines in a file</p>
+<h1 id="awk---remove-duplicate-lines-using-awk"><a class="header" href="#awk---remove-duplicate-lines-using-awk">awk - remove duplicate lines using awk</a></h1>
+<p><code>$ awk '!($0 in array) { array[$0]; print }' temp</code></p>
+<h1 id="sort---sort-file-in-ascending-order"><a class="header" href="#sort---sort-file-in-ascending-order">sort - sort file in ascending order</a></h1>
+<p><code>$sort names.txt</code></p>
+<h1 id="xargs---exectue-util"><a class="header" href="#xargs---exectue-util">xargs - exectue util</a></h1>
 <ul>
-<li>pursue innovative computer scientist</li>
-<li>understand the relationship of world entities</li>
-<li>create social value</li>
+<li><code>$ls *.jpg | xargs -n1 -i cp {} /external-hard-drive/directory</code>: search all jpg images in the system and archive it.</li>
+<li><code>$find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz</code></li>
+<li><code>$cat url-list.txt | xargs wget –c</code>: Download all the URLs mentioned in the url-list.txt file</li>
 </ul>
-<h1 id="research-practice"><a class="header" href="#research-practice">Research Practice</a></h1>
+<h1 id="service---check-the-status-of-all-the-services"><a class="header" href="#service---check-the-status-of-all-the-services">service - Check the status of all the services.</a></h1>
+<p><code>$service --status-all</code></p>
+<h1 id="io-direction"><a class="header" href="#io-direction">IO Direction</a></h1>
 <ul>
-<li>review master plan</li>
-<li>watch video on key concept &gt; online course</li>
-<li>summarize learning as reference</li>
+<li><code>$cmd &lt; file</code>: Input of cmd from file</li>
+<li><code>$cmd1 &lt;(cmd2)</code>: Output of cmd2 as file input to cmd1</li>
+<li><code>$cmd &gt; file</code>: Standard output (stdout) of cmd to file</li>
+<li><code>$cmd &gt; /dev/null</code>: Discard stdout of cmd</li>
+<li><code>$cmd &gt;&gt; file</code>: Append stdout to file</li>
+<li><code>$cmd 2&gt; file</code>: Error output (stderr) of cmd to file</li>
+<li><code>$cmd 1&gt;&amp;2</code>: stdout to same place as stderr</li>
+<li><code>$cmd 2&gt;&amp;1</code>: stderr to same place as stdout</li>
+<li><code>$cmd &amp;&gt; file</code>: Every output of cmd to file</li>
 </ul>
-<h1 id="business-case"><a class="header" href="#business-case">Business Case</a></h1>
+<h1 id="pipes"><a class="header" href="#pipes">Pipes</a></h1>
 <ul>
-<li>strategy: Competitive Advantage, Market size, bayesian probability, PESTAL</li>
-<li>opportunity: increase revenue, reduce cost, increase customer satisfaction, improve operation efficiency</li>
-<li>prioritize milestone (m1-m4) -&gt; target</li>
-<li>financial model: cost-benefit, NPS, DAU, CR, O/d, AOV, NMV, Revenue, Profit,</li>
-<li>risk assessment: dependency, constraint, change impact, opportunity cost</li>
+<li><code>$cmd1 | cmd2</code>: stdout of cmd1 to cmd2</li>
+<li><code>$cmd1 |&amp; cmd2</code>: stderr of cmd1 to cmd2</li>
 </ul>
-<h1 id="problem-statement"><a class="header" href="#problem-statement">Problem Statement</a></h1>
+<h1 id="command-lists"><a class="header" href="#command-lists">Command Lists</a></h1>
 <ul>
-<li>problem statement: people, process, tech</li>
-<li>gap analysis: ask 5 why &gt; root cause  (c1-c4)</li>
-<li>capability level</li>
+<li><code>$cmd1 ; cmd2</code>: Run cmd1 then cmd2</li>
+<li><code>$cmd1 &amp;&amp; cmd2</code>: Run cmd2 if cmd1 is successful</li>
+<li><code>$cmd1 || cmd2</code>: Run cmd2 if cmd1 is not successful</li>
+<li><code>$cmd &amp;</code>: Run cmd in a subshell</li>
 </ul>
-<h1 id="countermeasure"><a class="header" href="#countermeasure">Countermeasure</a></h1>
+<h1 id="reference"><a class="header" href="#reference">Reference</a></h1>
 <ul>
-<li>initialize milestones (m1-m4) -&gt; resolve root causes (c1-c4) -&gt; target</li>
-<li>improve people, process, tech</li>
-<li>logical architecture, solution architecture</li>
+<li><a href="https://www.thegeekstuff.com/sed-awk-101-hacks-ebook/">sed and awk cheatsheet</a></li>
+<li><a href="https://practicalunix.org/">Practical Unix from Stanford</a></li>
+<li><a href="https://github.com/ibraheemdev/modern-Unix">Modern Unix</a></li>
+<li><a href="https://hackr.io/blog/awk-command-unix-linux-examples">top awk example</a></li>
 </ul>
-<h1 id="action--success-criteria"><a class="header" href="#action--success-criteria">Action &amp; Success Criteria</a></h1>
-<ul>
-<li>project timeline (m1-m4)</li>
-<li>stakeholder matrix</li>
-<li>quality management</li>
-<li>change management</li>
-<li>marketing channel</li>
-</ul>
-<h1 id="escalation"><a class="header" href="#escalation">Escalation</a></h1>
-<ul>
-<li>follow-up, blockers</li>
-</ul>
-<h1 id="summary"><a class="header" href="#summary">Summary</a></h1>
-<ul>
-<li>signature</li>
-</ul>
-<h1 id="legal"><a class="header" href="#legal">Legal</a></h1>
-<ul>
-<li>Business Consultant Agreement Template (for vendors)</li>
-<li>Non-Competition Agreements Agreement Template (for employees)</li>
-<li>Non-Disclosure Agreement Template (for partners)</li>
-<li>Pricing option, Terms &amp; Conditions (for customers)</li>
-<li>Investor &amp; Startup Term Sheet Template (for investors)</li>
-</ul>
-<h1 id="maths"><a class="header" href="#maths">Maths</a></h1>
-<p>$$ \mu = \frac{1}{N} \sum_{i=0} x_i $$</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
-                            <a rel="next" href="DEV-Unix.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="DEV-Git.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -228,8 +238,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
-                    <a rel="next" href="DEV-Unix.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="DEV-Git.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
