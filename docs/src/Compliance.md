@@ -1,10 +1,10 @@
-# glossary
-| term | description |
-| --- | --- |
-| Initiative | A group of epics, aligning with organization goal |
-| Epic | A group of user stories, typically can’t be completed in one sprint | 
-| User story | A single request |
-| WIP | Work Improvement Protocol | 
+# Common Standard
+- ISO 29110 life cycle: work product, process input/output, workflow
+- ISO 27001 security
+- ISO 24774 process decription
+- GDPR
+
+
 
 # Agile Training
 [agile coach](https://www.atlassian.com/agile/manifesto)

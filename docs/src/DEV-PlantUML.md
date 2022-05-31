@@ -576,7 +576,7 @@ digraph D {
 }
 @enddot
 ```
-- # undirected Graph
+# undirected Graph
 ```plantuml
 @startdot
 graph D {
@@ -589,6 +589,9 @@ graph D {
 }
 @enddot
 ```
+
+# Maths
+$$ \mu = \frac{1}{N} \sum_{i=0} x_i $$
 
 # Theme
 [list of official theme](https://the-lum.github.io/puml-themes-gallery/)

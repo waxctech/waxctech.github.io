@@ -3,8 +3,8 @@ authors = ["man-chi"]
 language = "en"
 multilingual = false
 src = "src"
-title = "The Book"
-description = "The book covers software research and development."
+title = "The Book - WAXC Technology Open Source"
+description = "The book covers software development and research"
 
 [rust]
 edition = "2021"

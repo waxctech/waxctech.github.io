@@ -16,7 +16,8 @@
 
 - material theme UI
 - gitflow integration plus
-- newrelic codestream
+- gittoolbox: auto fetch
+- codestream: issue, code review, PR, feedback, codemark in IDE
 - plantuml
 - rust, toml, grcov, evcxr plugin: required for rust
 - ignore
@@ -29,6 +30,8 @@
 - graphql
 - terraform
 - tabinine AI code
+- turn off all unused intellij plugin
+
 
 # codestream - Jira Project setup
 - create jira project -> link to github (same name)
