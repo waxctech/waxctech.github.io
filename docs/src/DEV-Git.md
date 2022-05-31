@@ -89,6 +89,11 @@
 - git folk is to create a copy of repo from one github account into your github account
 - clone is from your repo to local.
 
+# fetch vs pull
+- fetch: only check and retrieve meta data from remote (without code merged)
+- pull: copy change from remote (with code merged)
+- update: intellij feature which combines fetch + pull
+
 # github flow (deprecated by gitflow)
 - workflow: remote main > local feature > remote feature > remote main > local main 
 - `git branch`: check the current branch
