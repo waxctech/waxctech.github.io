@@ -4,3 +4,28 @@ language = "en"
 multilingual = false
 src = "src"
 title = "The Book"
+description = "The book covers software research and development."
+
+[rust]
+edition = "2021"
+
+[build]
+create-missing = false
+
+[output.html.search]
+limit-results = 15
+
+[output.html.playground]
+editable = true
+
+[output.html]
+mathjax-support = true
+
+[preprocessor.graphviz]
+command = "mdbook-graphviz"
+output-to-file = false # defaults to false, change to true to create SVG files instead of rendering them inline
+
+[preprocessor.plantuml]
+plantuml-cmd="/usr/local/bin/plantuml"
+#plantuml-cmd="/usr/local/bin/plantuml -tsvg -nometadata"
+#command = "mdbook-plantuml -l"
