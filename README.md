@@ -1,2 +1,2 @@
 # waxctech.github.io
-Research &amp; Development
+WAXC Research &amp; Development
