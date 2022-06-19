@@ -1,20 +1,27 @@
 # Core Value
+
 - Performance, Safety, Compliance
 - Strategy, Technology, Social Dynamics
+
+# Mission
+
 - master in software development
-- pursue entities relationship & social value
+- pursue entities relationship
+- create social value
 
 # Strategy
 
 - business model: Competitive Advantage, Market segment size, bayesian probability, PESTAL
-- value: increase revenue, reduce cost, increase customer satisfaction, improve operation efficiency
+- value chain: increase revenue, reduce cost, increase customer satisfaction, improve operation efficiency
 - priority: milestone (m1-m4) -> target
 - financial model: cost-benefit, NPS, DAU, CR, O/d, AOV, NMV, Revenue, Profit,
 - risk assessment: dependency, constraint, change impact, opportunity cost
+- marketing channel
+-
 
-# Current state analysis (critical)
+# Problem Statement (critical)
 
-- problem statement: people, process, tech
+- current state: process and technology
 - gap analysis: ask 5 why > root cause  (c1-c4)
 - capability level
 
@@ -30,7 +37,7 @@
 - stakeholder matrix
 - quality management
 - change management
-- marketing channel
+- A3 Report Format
 
 # Escalation
 
@@ -40,7 +47,7 @@
 
 - signature
 
-# Legal
+# Legal Contract
 
 - Business Consultant Agreement Template (for vendors)
 - Non-Competition Agreements Agreement Template (for employees)

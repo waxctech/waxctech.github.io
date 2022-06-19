@@ -13,6 +13,8 @@
 - Material design icon
 - Directed/ undirected graph, Mindmap
 
+[graphviz online editor](http://magjac.com/graphviz-visual-editor/)
+
 # Sequence 
 - used for complex flow on calling external system
 ```plantuml
@@ -589,6 +591,27 @@ graph D {
 }
 @enddot
 ```
+
+# transparent color map
+```plantuml
+@startdot
+graph Transparency {
+	layout=neato
+	start=11 // empiric value to set orientation
+	bgcolor="#0000ff11"
+	node [shape=circle width=2.22 label="" style=filled]
+	5 [color="#0000ff80"]
+	6 [color="#ee00ee80"]
+	1 [color="#ff000080"]
+	2 [color="#eeee0080"]
+	3 [color="#00ff0080"]
+	4 [color="#00eeee80"]
+	1 -- 2 -- 5 -- 1
+}
+@enddot
+```
+
+
 
 # Maths
 $$ \mu = \frac{1}{N} \sum_{i=0} x_i $$

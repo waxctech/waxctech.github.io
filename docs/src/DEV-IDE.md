@@ -12,7 +12,7 @@
 - check `push on finish feature`
 - check `push on finish release`
 
-# intellij plugin
+# popular intellij plugin
 
 - material theme UI
 - gitflow integration plus
@@ -33,13 +33,13 @@
 - turn off all unused intellij plugin
 
 
-# codestream - Jira Project setup
+# codestream code collaboration  
 - create jira project -> link to github (same name)
 - in jira app, github configure -> connect github organization.
 - if project is not shown codestream, reinstall codestream intellij plugin
 - use codemarks instead of bookmark
 
-# task management on codestream
+# task management w/ Github flow on codestream
 - create issue
 - issue -> start work (move issue to in process & start feature branch)
 - commit with jira ID, e.g. WAXC-1, comment with resolves WAXC-1

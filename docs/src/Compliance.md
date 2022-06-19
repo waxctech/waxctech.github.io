@@ -1,13 +1,35 @@
-# Common Standard
-- ISO 29110 life cycle: work product, process input/output, workflow
-- ISO 27001 security
-- ISO 24774 process decription
-- GDPR
+# verification vs validation 
+- verification: internal, compliance
+- validation: external, customer needs and specification, interested by stakeholder
 
+
+# Common Standard
+- ISO 20000 - ITSM
+- ISO 25000 - software and data quality
+- ISO 27001 security
+- ISO 29110 life cycle: work product, process input/output, workflow
+- GDPR
+  PCI-DSS, SOC1 & SOC 2 
+
+# top jira add-on
+Requirements and Test Management for Jira (RTM) - for System analysis and tester
+Jira Misc Workflow Extensions (JMWE) - low-code automation, power script is avaiable in groovy. event & scheduler 
+Structure For Jira (Version 4.6.1) By ALM Works
+BigPicture For PPM, Project Management (Version 6.12.3) By SoftwarePlant - for senior management
+SQL For Jira Driver – Convert JQL To SQL (Version 6.8.3) By MarketPlace Expert
+Katl-com For Power Scripts & Power Apps (Version 4.0.16) By CPrime - [power script - free](https://marketplace.atlassian.com/apps/373929/sil-engine-for-power-suite?hosting=server&tab=overview)
+Tempo Timesheets For Jira
+
+[JMWE](https://www.innovalog.com/images/resources/JSU-vs-JMWE-for-Jira-Server.pdf)
+[Verify Approval in a Jira Workflow](https://www.jirastrategy.com/apps/verify-approval-in-a-jira-workflow)
+[Xmatters-Service reliability platform](https://www.xmatters.com/features/workflow-process-automation)
+[Jira online course](https://training.jirastrategy.com/)
+[Comparsion on CMMI/ISO/agil/SAFe](https://www.agilealliance.org/wp-content/uploads/2019/05/emt_multimodel_crosswalk_v1.0-2.pdf)
 
 
 # Agile Training
 [agile coach](https://www.atlassian.com/agile/manifesto)
+
 
 # ISO standard
 [90003:2020 brochure; collection chart](https://www.iso.org/files/live/sites/isoorg/files/developing_standards/who_develops_standards/docs/ISO_IEC_JTC%201_SC%207%20Brochure.pdf)
@@ -20,6 +42,7 @@
 [VSE Education](http://profs.etsmtl.ca/claporte/English/VSE/VSE-Education.html)
 [ETS course](https://ena.etsmtl.ca/course/view.php?id=4430)
 [29110 work product slide]
+[EMT](https://excellenceinmeasurement.com/)
 
 # ISO training course
 [ISO 2000](https://advisera.com/20000academy/what-is-iso-20000/)

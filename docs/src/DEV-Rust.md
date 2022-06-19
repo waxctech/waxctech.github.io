@@ -1,6 +1,10 @@
-# Statistics as of 2022 Jan
-Rust developers in discord - around 40k active ~ 0.2%
-total dev 25m worldwide -> 50% JS, 50% Java & Python.
+# Dapr, wasmedge runtime   
+https://www.infoq.com/articles/webassembly-dapr-wasmedge/
+https://github.com/second-state/dapr-wasm
+https://github.com/WasmEdge/WasmEdge
+
+
+[WASMEdge tutorial](https://youtu.be/t_sQP6Qpf7U)
 
 # modern programming focus
 - speed, stability, concurrency, functional programming
@@ -43,6 +47,8 @@ fn main() {
 12. [MEAP - Rust Web Development](https://www.manning.com/books/rust-web-development?query=rust)
 13. [downstream service - Zero to production in rust](https://www.zero2prod.com/index.html?country=Taiwan&discount_code=SEA60) 
 14. [microservice in AWS](https://www.amazon.co.uk/Hands-Microservices-Rust-2018-Scalable/dp/1789342759/ref=sr_1_6?s=books&ie=UTF8&qid=1545340800&sr=1-6&keywords=rust) as hyper, Tokio, and Actix, REST, Docker, Reactive, AWS lamdba
+
+[24 days of rust](https://zsiciarz.github.io/24daysofrust/index.html)
 
 # video course
 1. [24h intermediate - crust of rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)

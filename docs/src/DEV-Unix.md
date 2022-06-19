@@ -1,3 +1,18 @@
+[Practical Unix]
+## Topics
+- Setting Up Linux: Shell, Text, Editors, ZSH Globbing
+- Input / output redirection:
+- Redirecting Output to Another Command's Input
+- Redirecting Output to a File
+- Redirecting a File to Standard Input
+- Tee: Outputting to stdout and a File
+- Search and grep: Diff, Find, Grep and Regular Expressions - Intro, Find, Replace, Advanced
+- Scripting and permissions
+- Network:
+- scp - Securely Copy (copy files over a network)
+- wget - WWW Get (download files from the internet)
+- cURL - Send Requests to Online Resources, Web Request
+- 
 # Modern Unix command
 - `bat`: modern of `cat`
 - `exa`: modern of `ls`, e.g. `$exa --git -l --tree`
@@ -15,7 +30,20 @@
 - `dust`: modern of `du`, disk usage statistic by file
 - `duf`: modern of `du`, show disk free space
 - `wrk`: monitoring and benchmark 
+- `tmux`: terminal multiplexer: project session-* multi windows -* panes
 
+# tmux - terminal multiplexer
+>mtux new : create a new session
+>
+>ctrl+b+c/& : create/exit new window 
+> 
+>ctrl+b+%/"/x : split pane vertically/horizontally/exit
+> 
+> :set -g mouse on/off
+> 
+> Ctrl + b + Ctrl + s/r : save session/restore
+
+ 
 # ssh - Send file to remote ssh host
 - `$SSH username@ip-address`: login into a remote Linux machine using SSH
 - `$put file`: upload ‘file’ from local to remote computer

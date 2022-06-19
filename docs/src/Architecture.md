@@ -1,34 +1,61 @@
-# Maths
-[Khan - Algebra](https://www.khanacademy.org/math/algebra-home)
-[Khan - Geometry](https://www.khanacademy.org/math/geometry-home)
-[Khan - Trigonometry](https://www.khanacademy.org/math/trigonometry)
-[MIT 18.01 Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/)
-[MIT 18.02 Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
-[MIT 18.06 Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
-## Topics
-- AX = B AND THE FOUR SUBSPACES
-- LEAST SQUARES, DETERMINANTS AND EIGENVALUES
-- POSITIVE DEFINITE MATRICES AND APPLICATIONS
-[MIT 6.042 Discrete Maths](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/)
-- Fundamental concepts of mathematics: Definitions, proofs, sets, functions.
-- Discrete structures: Elementary number theory, graphs, counting.
-- Discrete probability theory.
-- Next module[MIT 6.045J]
+ 
+# open source 
+[the apache ways](https://www.apache.org/foundation/how-it-works.html)
 
-[Practical Unix]
-## Topics
-- Setting Up Linux: Shell, Text, Editors, ZSH Globbing
-- Input / output redirection:
- - Redirecting Output to Another Command's Input 
- - Redirecting Output to a File 
- - Redirecting a File to Standard Input 
- - Tee: Outputting to stdout and a File 
-- Search and grep: Diff, Find, Grep and Regular Expressions - Intro, Find, Replace, Advanced 
-- Scripting and permissions
-- Network: 
- - scp - Securely Copy (copy files over a network)
- - wget - WWW Get (download files from the internet)
- - cURL - Send Requests to Online Resources, Web Request 
+# WSO2 API manager + ESB
+[wso2](https://apim.docs.wso2.com/en/latest/get-started/apim-architecture/)
+[How to build a real-time, event-driven information system with WSO2 API Manager and Kafka](https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd)
+
+[apache karaf modulith runtime](https://karaf.apache.org/)
+
+# [WSO2 Choreo API marketplace](https://wso2.com/choreo/)
+
+# micokernel pattern
+[Microkernel Architectural Pattern](https://www.youtube.com/watch?v=h3icQDMRLd8)
+[IBM's OSGI articles](https://developer.ibm.com/series/osgi-demystified-article-series/)
+[Kirk Knoernschild on modularity patterns](https://www.youtube.com/watch?v=zH4_A1rtES8)
+
+# Architecture Decision Record
+https://adr.github.io/madr/
+https://www.structurizr.com/help/decision-log
+https://blog.jdriven.com/2018/10/lightweight-architecture-decision-records/
+https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-for-business-case/index.md
+https://github.com/npryce/adr-tools
+https://github.com/adr/madr
+[DOCUMENTING ARCHITECTURE DECISIONS](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+[Scaling Software Architecture via Conversations: the Advice Process](https://www.infoq.com/news/2022/01/software-architecture-advice/)
+
+
+
+[Software Architecture and Design InfoQ Trends Report—April 2022](https://www.infoq.com/articles/architecture-trends-2022/)
+# Majority
+Reactive programming
+DDD+EDA: CQRS, ES, service mesh
+Modular monolith
+Correctly built distributed system
+Actor model
+GraphQL
+Serverless
+Functional programming
+
+# adopters
+ADR
+Dapr
+Webassembly
+Security, resilience, observability
+Microfrontend
+asyncAPI
+Workflow automation platforms
+Low-code
+
+# innovators:
+eBPF
+GraphQL Federation
+Data Mesh
+Policy as code
+Blockchain
+HTTP/3
+
 
 [Stanford CS242 Programming Languages (in Rust)](https://stanford-cs242.github.io/f19/)
 ## Topics
@@ -287,6 +314,8 @@ Week 6: Intractable Problems and NP-completeness
 - Meta-linguistic Abstraction:
  - Interpretation of Programming Languages
  - Embedded Languages
+
+[MITX 685 advance data structure](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/) 
 
 [MIT 14.13 PSYCHOLOGY AND ECONOMICS](https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/)
 
