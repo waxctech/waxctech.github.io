@@ -91,7 +91,7 @@ Discover a variety of visual management techniques.
 [AWS knowledge graph](https://www.amazon.science/blog/combining-knowledge-graphs-quickly-and-accurately)
 [GNN with rust](https://darianharrison89.medium.com/graph-neural-networks-with-rust-4681fee71933)
 
-# Open Data
+# Open Data - Museum
 [Taiwan National Palace](https://digitalarchive.npm.gov.tw/)
 [Harvard Digital Collections](https://library.harvard.edu/digital-collections)
 [Self Museum Japan](https://self-museum.cultural.jp/)
@@ -104,10 +104,10 @@ Discover a variety of visual management techniques.
 [Cultural Japan](https://cultural.jp/)
 [Stanford Library](https://searchworks.stanford.edu/)
 [Princeton Art Museum](https://artmuseum.princeton.edu/)
-[Europeana](https://www.europeana.eu/en)
+[European](https://www.europeana.eu/en)
 [Center for Open Data in Humanities - Japan](http://codh.rois.ac.jp/)
 [IIIF](https://iiif.io/)
 [open cultural data](https://museum-id.com/unlocking-potential-next-open-cultural-data-museums-mia-ridge/)
-[national palace musuem](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
+[national palace museum](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
 [create graphdb from wikipedia data](https://github.com/mirkonasato/graphipedia)
 [EventKG](https://github.com/sgottsch/eventkg)

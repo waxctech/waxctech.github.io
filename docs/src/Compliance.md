@@ -2,8 +2,8 @@
 - verification: internal, compliance
 - validation: external, customer needs and specification, interested by stakeholder
 
-
 # Common Standard
+[EU security standard ENISA](https://www.cyberpilot.io/cyberpilot-blog/smaller-companies-need-cybersecurity-too-according-to-the-enisa)
 - ISO 20000 - ITSM
 - ISO 25000 - software and data quality
 - ISO 27001 security
@@ -45,6 +45,7 @@ Tempo Timesheets For Jira
 [EMT](https://excellenceinmeasurement.com/)
 
 # ISO training course
+[cybersecurity learning path](https://www.itgovernance.eu/en-ie/it-governance-learning-paths/cyber-security-ie)
 [ISO 2000](https://advisera.com/20000academy/what-is-iso-20000/)
 [GDPR 2 - days](https://training.advisera.com/course/eu-gdpr-data-protection-officer-course/)
 [ISO 27001 - 8h](https://training.advisera.com/course/iso-27001-foundations-course/)

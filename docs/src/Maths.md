@@ -14,17 +14,5 @@
 -------------------------------
 11. [MIT 18.085 computational science and engineering I 2008](https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/)
 12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/)
-
-## Topics
-- AX = B AND THE FOUR SUBSPACES
-- LEAST SQUARES, DETERMINANTS AND EIGENVALUES
-- POSITIVE DEFINITE MATRICES AND APPLICATIONS
-  
-- Fundamental concepts of mathematics: Definitions, proofs, sets, functions.
-- Discrete structures: Elementary number theory, graphs, counting.
-- Discrete probability theory.
-- Next module[MIT 6.045J]
-
-
-[MIT 6.042 Discrete Maths](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/)
+13. [MIT 18.404j THEORY OF COMPUTATION 2020](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/)
 

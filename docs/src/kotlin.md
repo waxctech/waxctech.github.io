@@ -1,1 +1,0 @@
-[tutorial](https://docs.w3cub.com/kotlin/docs/tutorials/kotlin-for-py/annotations)

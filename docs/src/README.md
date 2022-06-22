@@ -1,7 +1,7 @@
 # Core Value
 
 - Performance, Safety, Compliance
-- Strategy, Technology, Social Dynamics
+- Analytics, Technology, Risk
 
 # Mission
 
@@ -10,14 +10,13 @@
 - create social value
 
 # Strategy
-
+- market size: 
 - business model: Competitive Advantage, Market segment size, bayesian probability, PESTAL
 - value chain: increase revenue, reduce cost, increase customer satisfaction, improve operation efficiency
 - priority: milestone (m1-m4) -> target
 - financial model: cost-benefit, NPS, DAU, CR, O/d, AOV, NMV, Revenue, Profit,
 - risk assessment: dependency, constraint, change impact, opportunity cost
-- marketing channel
--
+
 
 # Problem Statement (critical)
 
@@ -30,7 +29,8 @@
 - initialize milestones (m1-m4) -> resolve root causes (c1-c4) -> target
 - improve people, process, tech
 - logical architecture, solution architecture
-
+- marketing channel
+- 
 # Success Criteria
 
 - project timeline (m1-m4)

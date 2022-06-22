@@ -1,4 +1,13 @@
- 
+# High Frequrency Trading
+[Algorithmic Trading System](http://turingfinance.com/wp-content/uploads/2013/11/U10026942_SoftwareArchitectureDocument_ATs.pdf)
+[Algorithmic Trading System](https://www.algotrader.com/)
+
+
+# Evolution of Financial Exchange Architectures
+[financial exchange](https://www.infoq.com/presentations/financial-exchange-architecture/)
+[wso2 reference architecture](https://wso2.com/whitepapers/)
+[trading floor achitecture](https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/Trading_Floor_Architecture-E.pdf)
+
 # open source 
 [the apache ways](https://www.apache.org/foundation/how-it-works.html)
 
