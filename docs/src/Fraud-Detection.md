@@ -1,3 +1,18 @@
+# Fraud Detection Market Size
+A typical IT service deployment may cost between $75 to $300 per users [^a]
+[^a]: https://www.industryarc.com/Research/IT-Services-Market-Research-501180
+
+Global Fraud Detection and Prevention Market to Reach $46.4 Billion by 2026 [^b]
+[^b]: https://www.prnewswire.com/news-releases/global-fraud-detection-and-prevention-market-to-reach-46-4-billion-by-2026--301499029.html
+
+The global fraud detection & prevention market was valued at $29.80 billion in 2021[^c]
+[^c]: https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market
+
+https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market
+https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-market-1312.html
+[market statistics](https://www.statista.com/outlook/tmo/public-cloud/united-states)
+[financial im
+
 # Anomaly Detection 
 [Deep Learning for Anomaly Detection](https://ff12.fastforwardlabs.com/)
 [A Comparative Evaluation of Unsupervised Anomaly Detection Algorithms for Multivariate Data](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152173)
@@ -22,16 +37,5 @@
 [NASA - real-time-fault-detection using kafka](https://www.confluent.io/kafka-summit-san-francisco-2019/mission-critical-real-time-fault-detection-for-nasas-deep-space-network-using-apache-kafka/)
 
 
-# Fraud Detection Market Size
-A typical IT service deployment may cost between $75 to $300 per users [^a]
-[^a]: https://www.industryarc.com/Research/IT-Services-Market-Research-501180
-
-Global Fraud Detection and Prevention Market to Reach $46.4 Billion by 2026 [^b]
-[^b]: https://www.prnewswire.com/news-releases/global-fraud-detection-and-prevention-market-to-reach-46-4-billion-by-2026--301499029.html
-
-The global fraud detection & prevention market was valued at $29.80 billion in 2021[^c]
-[^c]: https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market
-
-https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market
-https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-market-1312.html
-[market statistics](https://www.statista.com/outlook/tmo/public-cloud/united-states)
+[impact due to fraud](https://www.forbes.com/sites/jordanmckee/2020/11/22/unpacking-the-overall-impact-of-fraud/?sh=a43067f78914)
+[6% revenue lost due to fraud, 1% to 5% profit spending on fraud](https://www.fisglobal.com/en/insights/merchant-solutions-worldpay/article/the-best-fraud-prevention-strategies-for-ecommerce)
