@@ -6,7 +6,20 @@
 # Data Integration
 # Data Visualization
 
+#Data mesh
+[How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html)
+[aws lake house](https://aws.amazon.com/tw/blogs/big-data/etl-and-elt-design-patterns-for-lake-house-architecture-using-amazon-redshift-part-1/)
+[starburst lake house](https://www.starburst.io/blog/why-data-lakehouse-architecture-now/)
+[GCP data mesh](Build a data mesh on Google Cloud with Dataplex, now generally available)
+[Azure big data](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
+[AWS lake house](https://aws.amazon.com/tw/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
 
+
+# apache Flink
+[Stateful stream processing with Apache Flink(part 1): An introduction](https://medium.com/@knoldus/stateful-stream-processing-with-apache-flink-part-1-an-introduction-bd5ca107cea7)
+[Dremio - lakehouse](https://www.dremio.com/blog/its-wise-to-choose-open/)
+[Table Format Governance and Community Contributions: Apache Iceberg, Apache Hudi, and Delta Lake](https://www.dremio.com/subsurface/table-format-governance-and-community-contributions-apache-iceberg-apache-hudi-and-delta-lake/)
+[Comparison of Data Lake Table Formats (Iceberg, Hudi and Delta Lake)](https://www.dremio.com/subsurface/comparison-of-data-lake-table-formats-iceberg-hudi-and-delta-lake/)
 
 # Complex Event Processing
 [Flink CEP](https://data-flair.training/blogs/flink-cep/)

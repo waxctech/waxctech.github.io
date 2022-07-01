@@ -27,9 +27,15 @@ fn main() {
 # cargo new project
 `cargo new hello_world --bin --vcs git`
 
+
+# mdbook
+`mdbook build`
+
 # print out struct
 `#[derive(Debug)]`
 `println!("{:?}", user);`
+
+
 
 # training path
 0. [cheat sheet](https://cheats.rs/)

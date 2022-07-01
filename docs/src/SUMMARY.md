@@ -2,22 +2,21 @@
 [Introduction](README.md)
 
 # Development Environment
-- [Modern Unix Command](DEV-Unix.md)
-- [IntelliJ IDE](DEV-IDE.md)
-- [Git Convention](DEV-Git.md)
-- [Rust Programming](DEV-Rust.md)
-- [C4 Model Template](DEV-C4-Model.md))
-- [Diagram as Code](DEV-PlantUML.md)
-- [open source model](opensource.md)
+- [Modern Unix Command](Dev-Unix.md)
+- [IntelliJ IDE](Dev-IDE.md)
+- [Git Convention](Dev-Git.md)
+- [Rust Programming](Dev-Rust.md)
+- [Diagram as Code](Dev-Diagram.md)
 
 # Best Practices
-- [Analysis]()
+- [Fraud Detection](Data-Fraud-Detection.md)
 - [Architecture Design](Architecture.md)
 - [Compliance](Compliance.md)
-- [Social Dynamics](Social-Dynamics.md): OKR, Topology, System Dynamics
+- [Social Dynamics](MIT-System-Dynamics.md): OKR, Topology, System Dynamics
 
 # Technology
 - [Blockchain](Blockchain.md)
+- [Computer Science](Computer-Science.md)
 
 -----------
 

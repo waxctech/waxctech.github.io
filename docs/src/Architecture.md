@@ -1,28 +1,60 @@
-# High Frequrency Trading
-[Algorithmic Trading System](http://turingfinance.com/wp-content/uploads/2013/11/U10026942_SoftwareArchitectureDocument_ATs.pdf)
-[Algorithmic Trading System](https://www.algotrader.com/)
-
-
-# Evolution of Financial Exchange Architectures
-[financial exchange](https://www.infoq.com/presentations/financial-exchange-architecture/)
-[wso2 reference architecture](https://wso2.com/whitepapers/)
-[trading floor achitecture](https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/Trading_Floor_Architecture-E.pdf)
-
-# open source 
-[the apache ways](https://www.apache.org/foundation/how-it-works.html)
-
-# WSO2 API manager + ESB
-[wso2](https://apim.docs.wso2.com/en/latest/get-started/apim-architecture/)
-[How to build a real-time, event-driven information system with WSO2 API Manager and Kafka](https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd)
-
-[apache karaf modulith runtime](https://karaf.apache.org/)
-
-# [WSO2 Choreo API marketplace](https://wso2.com/choreo/)
-
 # micokernel pattern
 [Microkernel Architectural Pattern](https://www.youtube.com/watch?v=h3icQDMRLd8)
 [IBM's OSGI articles](https://developer.ibm.com/series/osgi-demystified-article-series/)
 [Kirk Knoernschild on modularity patterns](https://www.youtube.com/watch?v=zH4_A1rtES8)
+[modularity](https://www.infoq.com/articles/monolith-defense-part-1/)
+[Event driven architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
+[Apache Karaf Microservices](https://dzone.com/articles/apache-karaf-microservices)
+[osgi + camel](https://lucian-davitoiu.medium.com/a-camel-project-example-with-java-beans-and-osgi-blueprint-in-karaf-5dc172e09829)
+[Building Microservices in OSGi with the Apache Karaf Framework](https://www.exoscale.com/syslog/building-microservices-in-osgi-with-the-apache-karaf-framework/)
+[Modular Monolith: A Primer](http://www.kamilgrzybek.com/design/modular-monolith-primer/)
+[osgi best practices](https://www.youtube.com/watch?v=6_UU90fSYTk)
+[Microservices & OSGi: Better together?](https://www.youtube.com/watch?v=y_dg5MPbaX8)
+[An Overview Of MicroKernel Architecture Pattern](https://www.c-sharpcorner.com/article/an-overview-of-microkernel-architecture-pattern/)  
+[Microkernel Architecture Pattern & Applying it to Software Systems](https://www.viralpatel.net/microkernel-architecture-pattern-apply-software-systems/)
+[Actor Model and Event Sourcing](https://blog.softwaremill.com/actor-model-and-event-sourcing-aa00993d2f1e)
+
+[Event Driven Architecture](https://pages.awscloud.com/AWS-Learning-Path-How-to-Use-Amazon-EventBridge-to-Build-Decoupled-Event-Driven-Architectures_2020_LP_0001-SRV.html?&trk=ps_a134p000003yBd8AAE&trkCampaign=FY20_2Q_eventbridge_learning_path&sc_channel=ps&sc_campaign=FY20_2Q_EDAPage_eventbridge_learning_path&sc_outcome=PaaS_Digital_Marketing&sc_publisher=Google)
+[AWS EDA](https://aws.amazon.com/tw/event-driven-architecture/)
+
+# Axon EventStore Training
+[Introduction to DDD, CQRS and Event Sourcing - 5h](https://academy.axoniq.io/path-player?courseid=ddd-cqrs-eventsourcing-concepts&unit=60928138325bf8218e4f4325Unit)
+[Implementing DDD, CQRS and Event Sourcing with Axon - 5h](https://academy.axoniq.io/course/ddd-cqrs-eventsourcing-axon)
+
+# EventstoreDB Training
+[Introduction to Event Sourcing - 2h](https://learn.eventstore.com/webinar-recording-introduction-to-event-sourcing)
+[CQRS and Event Sourcing - 2h](https://learn.eventstore.com/webinar-recording-cqrs-and-event-sourcing?submissionGuid=28beafd5-1a5c-4967-acd0-274adf3058b5)
+[Read Models and Projections in Event Sourcing](https://learn.eventstore.com/webinar-recording-read-models-and-projections-in-event-sourcing?utm_campaign=Webinar%20-%20Read%20models%20and%20projections&utm_medium=email&_hsmi=142683594&_hsenc=p2ANqtz--sIntR2V1Z3Eb2rcTD-jx96ZvhphxDjOcCaT5by9vBLPBFAACVPEHwBq3lhw6UToEw15ndnuAAAysUSZKC4fesKJ8FFA&utm_content=142683594&utm_source=hs_automation)
+[How to deal with privacy and GDPR in Event-Sourced systems](https://www.youtube.com/watch?v=CI7JPFLlpBw)
+[Q&A - Event Sourcing, CQRS, and DDD](https://learn.eventstore.com/webinar-recording-qa-event-sourcing-cqrs-and-ddd?submissionGuid=7ed7d2cf-1bb6-4f99-be23-1930f38ade74)
+
+# Domain Driven Design
+[Apache Isis tutorial](https://www.youtube.com/watch?v=OTNHR5EdAs8&list=PLbRpnAmQ6xsBGB_mRAUob8WRBsSL_IsBO&index=1)
+[DDD distill by Vaughn Vernon](https://learning.oreilly.com/videos/domain-driven-design-distilled/9780134593449/) 
+[7 Years of DDD - lecture by Vladik Khononov ](https://www.youtube.com/watch?v=h_HjtYAH0AI&t=1342s)
+[LMAX vs actor pattern](https://www.algotrader.com/intelligence/modern-trading-applications-architectures-an-overview-of-the-lmax-disruptor-pattern-and-project-reactor/)
+
+# High Frequency Trading
+[Algorithmic Trading System](http://turingfinance.com/wp-content/uploads/2013/11/U10026942_SoftwareArchitectureDocument_ATs.pdf)
+[Algorithmic Trading System](https://www.algotrader.com/)
+[performance talk by Martin Thompson](https://www.infoq.com/presentations/financial-exchange-architecture/#mainLogin/)
+[modularity talk by Kirk Knoernschild](https://www.youtube.com/watch?v=TaFNhNNua5c)
+[financial trading](https://www.vamsitalkstech.com/aml/why-big-data-intelligent-middleware-will-revolutionize-financial-trading-part-1-of-3/)    
+[how to design HFT](https://ariel-silahian.medium.com/how-do-i-design-high-frequency-trading-systems-and-its-architecture-part-ii-81e67cc7a8f5)
+[automated trading syste](https://blog.quantinsti.com/automated-trading-system/)
+
+# Financial Exchange Architectures
+[financial exchange](https://www.infoq.com/presentations/financial-exchange-architecture/)
+[wso2 reference architecture](https://wso2.com/whitepapers/)
+[trading floor achitecture](https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/Trading_Floor_Architecture-E.pdf)
+
+# WSO2 API manager + ESB
+[wso2](https://apim.docs.wso2.com/en/latest/get-started/apim-architecture/)
+[How to build a real-time, event-driven information system with WSO2 API Manager and Kafka](https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd)
+[apache karaf modulith runtime](https://karaf.apache.org/)
+[WSO2 Choreo API marketplace](https://wso2.com/choreo/)
+
+
 
 # Architecture Decision Record
 https://adr.github.io/madr/
@@ -66,276 +98,6 @@ Blockchain
 HTTP/3
 
 
-[Stanford CS242 Programming Languages (in Rust)](https://stanford-cs242.github.io/f19/)
-## Topics
-- Von Neumann Style
-- Syntax and semantics, Types and Programming Languages
-- Lambda calculus
-- Functional basics, Algebraic data types
-- Parametric types
-- Mutability
-- Control flow: branches
-- Control flow: functions
-- Memory safety	
-- Traits
-- Smart pointers
-- Fearless Concurrency
-- Typestate
-- Session types
-- Parallelism and programming languages 
-
-[MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/)
-## Topics
-- Basics of information: entropy, encodings, error correction	 
-- The digital abstraction: combinational logic, voltage-based encoding	 
-- CMOS: MOSFETs, gate design; timing	 
-- Combinational logic: canonical forms, synthesis, simplification	 
-- Sequential logic: latches, registers, timing
-- Finite-state machines (FSMs); asynchronous inputs and metastability	 
-- Performance measures: throughput and latency, pipelining	 
-- Design tradeoffs: power, speed, area, throughput	 
-- von Neumann architectures, Beta instruction set
-- Assembly language	 
-- Compiling expressions and statements
-- Stacks and procedures	 
-- Beta implementation	 
-- Multilevel memories: locality, performance, caches	 
-- Cache design issues
-- Pipelining the Beta: pipeline diagrams, data hazards	 
-- Pipelining the Beta: control hazards, dealing with exceptions 
-- Virtual memory: mapping, protection, contexts	 
-- Virtual machines: timesharing, OS kernels, supervisor calls	 
-- Devices and interrupts; real-time	
-- Communicating processes: semaphores, synchronization, atomicity, deadlock	 
-- System-level communication	
-- Parallel processing: performance limits, data- and thread-level parallelism	 
-- Building a Better Beta: tips for the design project
-
-[MIT 6.031: Software Construction (in TypeScript)](http://web.mit.edu/6.031/www/sp22/)
-## Topics
-01: Static Checking
-02: Basic TypeScript
-03: Testing
-04: Code Review // TODO established code reviewing guideline
-05: Version Control
-06: Specifications
-07: Designing Specifications
-08: Mutability & Immutability
-09: Avoiding Debugging
-10: Abstract Data Types
-11: Abstraction Functions & Rep Invariants
-12: Interfaces, Generics, & Enums
-13: Debugging
-14: Recursion
-15: Equality
-16: Map, Filter, Reduce
-17: Recursive Data Types
-18: Regular Expressions & Grammars
-19: Parsers
-20: Callbacks & Graphical User Interfaces
-21: Concurrency
-22: Promises
-23: Mutual Exclusion
-24: Message Passing
-25: Networking
-26: Little Languages I
-27: Little Languages II
-28: Ethical Software Engineering
-29: Team Version Control
-
-[MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/index.htm)
-## Topics
-- Data Structures
-- Sorting  
-- Hashing  
-- Linear Sorting  
-- Binary Trees  
-- Binary Heaps  
-- Breadth-First Search   
-- Depth-First Search    
-- Weighted Shortest  
-- Bellman-Ford   
-- Dijkstra's Algorithm  
-- ASP & Johnson's Algorithm 
-- Dynamic Programming: SRBOT, Fib, DAGs, Bowling   LCS, LIS, Coins, Rods, Subsetsums, Pseudopolynomial  
-- Complexity
-
-[MIT 6.046J Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm)
-## Topics
-- Overview, Interval Scheduling 
-- Divide & Conquer: Convex Hull, Median Finding, FFT, Van Emde Boas Trees
-- Amortization: Amortized Analysis 
-- Randomization: Matrix Multiply, Quicksort, Skip Lists, Universal & Perfect Hashing
-- Augmentation: Range Trees
-- Dynamic Programming: Advanced DP, All-pairs Shortest Paths
-- Greedy Algorithms: Minimum Spanning Tree
-- Incremental Improvement: Max Flow, Min Cut, Matching 
-- Linear Programming: LP, Reductions, Simplex
-- Complexity: P, NP, NP-completeness, Reductions, Approximation Algorithms, Fixed-parameter Algorithms
-- Synchronous Distributed Algorithms: Symmetry-breaking. Shortest-paths Spanning Trees
-- Asynchronous Distributed Algorithms: Shortest-paths Spanning Trees
-- Cryptography: Hash Functions, Encryption 
-- Cache-oblivious Algorithms: Medians & Matrices, Searching & Sorting
-
-[6.033	Computer Systems Engineering](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm)
-## Topics
-- Operating Systems:
- - Coping with Complexity
- - Naming in Systems
- - Operating Systems + Virtual Memory
- - Bounded Buffers + Locks
- - Threads
- - Operating Systems Structure + Virtual Machines
- - Performance
-- Networking:
- - Intro to Networking
- - Routing 
- - BGP
- - Transport Layer
- - In-Network Resource Management
- - P2P Networks + Content Distribution Networks
-- Distributed Systems: 
- - Reliability via Replication
- - Introductions to Transactions
- - Atomicity via Logging
- - Fault Tolerence Isolation
- - Distributed Transactions
- - Availability via Replication
-- Security: 
- - Intro to Security
- - Authentication and Passwords
- - Secure Channels
- - Network Security and DDoS Attacks
- - Bitcoin
- - Tor
- - Policy vs Mechanism
-
-[MIT 18.S191 Introduction to computational thinking (in Julia)](https://ocw.mit.edu/courses/mathematics/18-s191-introduction-to-computational-thinking-fall-2020/index.htm)
-
-[6.036	Introduction to Machine Learning (in Python)](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
-- Perceptrons
-- Features
-- Margin Maximization
-- Regression
-- Neural Networks I
-- Neural Networks II
-- Convolutional Neural Networks 
-- State Machines and Markov Decision Processes
-- Reinforcement Learning
-- Recurrent Neural Networks
-- Recommender Systems
-- Decision Trees and Nearest Neighbors
-
-[Introduction to Deep Learning (in Python)](http://introtodeeplearning.com/2020/index.html)
-- Intro to Deep Learning
-- Deep Sequence Modeling
-- TensorFlow
-- Deep Computer Vision
-- Deep Generative Modeling
-- De-biasing Facial Recognition Systems
-- Deep Reinforcement Learning
-- Limitations and New Frontiers
-- Pixels to Control Learning
-- Neurosymbolic Hybrid AI
-- Generalizable Autonomy in Robotics
-- Neural Rendering
-- ML for Scent
-
-# Advance Computer Science
-[Jeff Ullman's Automata Theory](https://learning.edx.org/course/course-v1:StanfordOnline+CSX0005+1T2020/home)
-Week 1: Finite Automata, Incomplete section
-Week 2: Regular Expressions and Properties of Regular Languages, Incomplete section
-Week 3: Context-Free Grammars and Pushdown Automata, Incomplete section
-Week 4: Pushdown Automata and Properties of Context-Free Languages, Incomplete section
-Week 5: Turing Machines and Undecidability, Incomplete section
-Week 6: Intractable Problems and NP-completeness
-
-[MIT 6.045 Automata, Computability, and Complexity](https://ocwnext.odl.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/)
-## Topics
-- Logic, circuits, and gates
-- Deterministic finite automata (DFAs) and nondeterministic finite automata (NFAs)
-- NFAs and regular expressions
-- Non-regular languages and the pumping lemma
-- Turing machines
-- Decidability
-- Undecidable problems and Post correspondence problem (PCP)
-- Mapping reducibility and Rice's theorem
-- Self-reference and the recursion theorem
-- Introduction to cryptography
-- Complexity theory
-- Pseudorandom generators and one-way functions
-- Public-key cryptography
-- More complexity theory
-- More NP-completeness
-- Probabilistic Turing machines and complexity classes
-- Trapdoor one-way functions and zero-knowledge proofs
-- Probably approximately correct (PAC) learning
-- More PAC learning
-- Introduction to quantum
-- Quantum mechanics and BQP
-- Quantum algorithms
-
-
-
-[MIT 18.404 Theory of Computation](https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2020/index.htm)
-## Topics
-- Introduction, Finite Automata, Regular Expressions
-- Nondeterminism, Closure Properties, Regular Expressions → Finite Automata	
-- The Regular Pumping Lemma, Finite Automata → Regular Expressions, CFGs	
-- Pushdown Automata, CFG ↔ PDA
-- The CF Pumping Lemma, Turing Machines
-- TM Variants, the Church-Turing Thesis
-- Decision Problems for Automata and Grammars
-- Undecidability2MB)
-- Reducibility
-- The Computation History Method
-- The Recursion Theorem and Logic
-- Time Complexity
-- P and NP, SAT, Poly-time Reducibility
-- NP-Completeness
-- Cook-Levin Theorem
-- Space Complexity, PSPACE, Savitch's Theorem
-- PSPACE-Completeness
-- Games, Generalized Geography
-- L and NL, NL = coNL
-- Hierarchy Theorems
-- Provably Intractable Problems, Oracles
-- Probabilistic Computation, BPP
-- Probabilistic Computation (cont.)
-- Interactive Proof Systems, IP
-- coNP ⊆ IP
-
-[MIT 6.830 Database Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/index.htm)
-
-[MIT 6.001 Structure and Interpretation of Computer Programs (in Scheme)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/)
-## Topics
-- Building Abstractions:
- - Computational Processes
- - Higher-order Procedures
- - Compound Data
- - Data Abstractions
-- Controlling Interactions:
- - Generic Operations
- - Self-describing Data
- - Message Passing
- - Streams and Infinite Data Structures
- - Object-oriented Programming
-- Meta-linguistic Abstraction:
- - Interpretation of Programming Languages
- - Embedded Languages
-
-[MITX 685 advance data structure](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/) 
-
-[MIT 14.13 PSYCHOLOGY AND ECONOMICS](https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/)
-
-[Stanford CS249i The Modern Internet 2021](https://cs249i.stanford.edu/)
-[Stanford CS251: Cryptocurrencies and Blockchain Technologies](https://cs251.stanford.edu/)
-[Stanford CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
-[Stanford CS145: Data Management and Data Systems](https://cs145-fa21.github.io/)
-[Stanford CS253 web security](https://web.stanford.edu/class/cs253/)
-[Stanford CS - CS349D: Cloud Computing Technology](https://web.stanford.edu/class/cs349d/)
-[^1]:[Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
-[programming idioms](https://programming-idioms.org/cheatsheets)
 
 
 # Search Engine
@@ -380,7 +142,7 @@ https://css-tricks.com/creating-dynamic-routes-in-a-nuxt-application/
 https://templates.netlify.com/template/netlifycms-gridsome/
 [A Jamstack framework for Vue.js] (https://gridsome.org/)
 
-# Open Open index
+# Open Source Ecosystem
 [ROSS index](https://runacap.com/ross-index/)
 [](https://medium.com/runacapital/open-source-growth-benchmarks-and-the-20-fastest-growing-oss-startups-d3556a669fe6)
 [](https://medium.com/runacapital/open-source-growth-benchmarks-extention-the-ross-index-and-the-fastest-growing-startups-in-q3-2020-7aee7fa7eed7)
@@ -388,6 +150,7 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 (https://medium.com/runacapital/open-source-analysis-and-os-databases-1eb1fe840719)
 [gitplanet](https://gitplanet.com/)
 [kandi](https://kandi.openweaver.com/home)
+[the apache ways](https://www.apache.org/foundation/how-it-works.html)
 
 # awewsome list
 [public datasets](https://github.com/awesomedata/awesome-public-datasets)
@@ -436,11 +199,5 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 [SSL](http://www.cheat-sheets.org/saved-copy/Ssl_handshake_with_two_way_authentication_with_certificates-1.pdf)
 [VS Code cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 [intellij cheat](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
-
-
-# Rust & Kotlin
-[kotlin vs rust:](https://www.beust.com/weblog/what-kotlin-could-learn-from-rust/)
-[](https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/)
-[The State of Developer Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/)
-[cool app written in haskell](http://detexify.kirelabs.org/classify.html)
-(https://blog.allegro.tech/2020/04/immutability-in-java.html)
+[^1]:[Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
+[programming idioms](https://programming-idioms.org/cheatsheets)

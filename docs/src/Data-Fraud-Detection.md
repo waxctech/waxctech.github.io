@@ -1,3 +1,11 @@
+articles on market opportunity
+[1](https://www.gminsights.com/industry-analysis/fraud-detection-and-prevention-market)
+[2](https://www.fortunebusinessinsights.com/industry-reports/fraud-detection-and-prevention-market-100231)
+[3](https://www.grandviewresearch.com/industry-analysis/fraud-detection-prevention-market)
+[4](https://www.globenewswire.com/news-release/2019/07/17/1883895/0/en/Global-Fraud-Detection-and-Prevention-Market-Report-2019-Historical-Data-2014-2017-Base-Year-of-2018-2019-Estimates-Forecasts-2020-2024.html)
+[5](https://www.mordorintelligence.com/industry-reports/global-fraud-detection-and-prevention-fdp-market-industry)
+
+
 # Fraud Detection Market Size
 A typical IT service deployment may cost between $75 to $300 per users [^a]
 [^a]: https://www.industryarc.com/Research/IT-Services-Market-Research-501180
