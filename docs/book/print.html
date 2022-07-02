@@ -84,7 +84,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="DEV-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="DEV-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="DEV-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="DEV-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="DEV-C4-Model.html"><strong aria-hidden="true">5.</strong> C4 Model Template</a></li><li class="chapter-item expanded "><a href="DEV-PlantUML.html"><strong aria-hidden="true">6.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Analysis</div></li><li class="chapter-item expanded "><a href="Architecture.html"><strong aria-hidden="true">8.</strong> Architecture Design</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">9.</strong> Compliance</a></li><li class="chapter-item expanded "><a href="Social-Dynamics.html"><strong aria-hidden="true">10.</strong> Social Dynamics</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">11.</strong> Blockchain</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html"><strong aria-hidden="true">6.</strong> Fraud Detection</a></li><li class="chapter-item expanded "><a href="Architecture.html"><strong aria-hidden="true">7.</strong> Architecture Design</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">8.</strong> Compliance</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">9.</strong> Social Dynamics</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">10.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">11.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -542,6 +542,8 @@ https://github.com/WasmEdge/WasmEdge</p>
 <p><code>rustup update</code></p>
 <h1 id="cargo-new-project"><a class="header" href="#cargo-new-project">cargo new project</a></h1>
 <p><code>cargo new hello_world --bin --vcs git</code></p>
+<h1 id="mdbook"><a class="header" href="#mdbook">mdbook</a></h1>
+<p><code>mdbook build</code></p>
 <h1 id="print-out-struct"><a class="header" href="#print-out-struct">print out struct</a></h1>
 <p><code>#[derive(Debug)]</code>
 <code>println!(&quot;{:?}&quot;, user);</code></p>
@@ -649,7 +651,23 @@ Thread-safe data structures: crossbeam.</p>
 <a href="https://areweipfsyet.rs/">IPFS</a>
 <a href="https://www.arewelearningyet.com/">machine learning</a></p>
 <p><a href="https://sdacademy.dev/difference-between-functional-programming-and-object-oriented-programming/">The Difference between Functional Programming and Object-Oriented Programming</a></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="plantuml-installation"><a class="header" href="#plantuml-installation">Plantuml Installation</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="common-usage-and-example"><a class="header" href="#common-usage-and-example">Common Usage and Example</a></h1>
+<ul>
+<li>Architecture: C4 modelling, AWS, Azure, kubernetes, Elastics</li>
+<li>Programming: class, sequence, activity, parallel processing, state machine, process timeline, swagger open API</li>
+<li>Build &amp; Configuration: cargo, gradle, terraform, ansible</li>
+<li>Network: DNS, trace route, Firewall, routing, apache log, gpg/pgp, sitemap, isp mapper, tcpdump</li>
+<li>Data translation: json, db schema, Text read stdin, xml sql</li>
+<li>AI: keras neural network, Word formation, Topic extraction</li>
+<li>Profiler</li>
+<li>Knowledge map</li>
+<li>Domain storytelling</li>
+<li>Org chart WBS</li>
+<li>Gantt chart</li>
+<li>Material design icon</li>
+<li>Directed/ undirected graph, Mindmap</li>
+</ul>
+<h1 id="plantuml-installation"><a class="header" href="#plantuml-installation">Plantuml Installation</a></h1>
 <ul>
 <li><code>$cargo install mdbook-graphviz</code></li>
 <li><code>$cargo install mdbook-plantuml</code> : require to change source code for &quot;graphviz&quot;</li>
@@ -680,40 +698,6 @@ plantuml-cmd=&quot;/usr/local/bin/plantuml&quot;
 <p><img src="mdbook-plantuml-img/258ecbec834964b8d611fa1711d665a4d8c3e515.svg" alt="" /></p>
 <h1 id="container-view-on-messaging-bus"><a class="header" href="#container-view-on-messaging-bus">Container View on Messaging Bus</a></h1>
 <p><img src="mdbook-plantuml-img/7702a73df8b46a3efbd7a6cc4195da55fcaf3895.svg" alt="" /></p>
-<h1 id="reference-3"><a class="header" href="#reference-3">Reference:</a></h1>
-<ul>
-<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/samples/C4CoreDiagrams.md">C4 core diagram</a></li>
-<li><a href="https://c4model.com/#examples">C4 modelling</a></li>
-<li><a href="https://graphviz.org/">graphviz</a></li>
-<li><a href="https://diagrams.mingrammer.com/">cloud arh</a></li>
-<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML">C4-PlantUM</a></li>
-<li><a href="https://plantuml.com/en/">plantuml</a></li>
-<li><a href="https://github.com/awslabs/aws-icons-for-plantuml">aws plantuml</a></li>
-<li><a href="https://docs.asciidoctor.org/diagram-extension/latest/#meme">asciidoc</a></li>
-<li><a href="https://vega.github.io/vega/">VISUALIZATION GRAMMARS</a></li>
-<li><a href="%5Bhttps://vega.github.io/vega-lite/">vega-lite</a></li>
-<li><a href="https://kroki.io/#cheat-sheet">kroki</a>  - using it to support vega ?</li>
-<li><a href="https://github.com/mermaid-js/mermaid">mermaid demo</a></li>
-<li><a href="https://github.com/kbknapp/cargo-graph">cargo dependency graph</a></li>
-<li><a href="https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html">Tutorial on Plantuml</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="common-usage-and-example"><a class="header" href="#common-usage-and-example">Common Usage and Example</a></h1>
-<ul>
-<li>Architecture: C4 modelling, AWS, Azure, kubernetes, Elastics</li>
-<li>Programming: class, sequence, activity, parallel processing, state machine, process timeline, swagger open API</li>
-<li>Build &amp; Configuration: cargo, gradle, terraform, ansible</li>
-<li>Network: DNS, trace route, Firewall, routing, apache log, gpg/pgp, sitemap, isp mapper, tcpdump</li>
-<li>Data translation: json, db schema, Text read stdin, xml sql</li>
-<li>AI: keras neural network, Word formation, Topic extraction</li>
-<li>Profiler</li>
-<li>Knowledge map</li>
-<li>Domain storytelling</li>
-<li>Org chart WBS</li>
-<li>Gantt chart</li>
-<li>Material design icon</li>
-<li>Directed/ undirected graph, Mindmap</li>
-</ul>
-<p><a href="http://magjac.com/graphviz-visual-editor/">graphviz online editor</a></p>
 <h1 id="sequence"><a class="header" href="#sequence">Sequence</a></h1>
 <ul>
 <li>used for complex flow on calling external system</li>
@@ -764,7 +748,7 @@ plantuml-cmd=&quot;/usr/local/bin/plantuml&quot;
 <li><a href="https://github.com/dcasati/kubernetes-PlantUML">more k8s example</a></li>
 </ul>
 <p>PlantUML rendering error:
-PlantUML did not generate an image, did you forget the @startuml, @enduml block (/usr/local/bin/plantuml -tsvg -nometadata /var/folders/th/c_6w7gtd299fh13whmfhgsq80000gn/T/.tmpUgCIky/bea6074f3e96ab33929173613e1100c0b6b7bb2f.puml)?</p>
+PlantUML did not generate an image, did you forget the @startuml, @enduml block (/usr/local/bin/plantuml -tsvg -nometadata /var/folders/th/c_6w7gtd299fh13whmfhgsq80000gn/T/.tmpDI8oCn/bea6074f3e96ab33929173613e1100c0b6b7bb2f.puml)?</p>
 <h1 id="domain-storytelling"><a class="header" href="#domain-storytelling">Domain Storytelling</a></h1>
 <p><a href="https://github.com/johthor/DomainStory-PlantUML">ref</a></p>
 <p><img src="mdbook-plantuml-img/d43948757d9e1640f471308991acce4407e7da9c.svg" alt="" /></p>
@@ -778,31 +762,118 @@ PlantUML did not generate an image, did you forget the @startuml, @enduml block 
 <p><img src="mdbook-plantuml-img/ab1d9750d0d9fa05246bb59a2b508722620189f0.svg" alt="" /></p>
 <h1 id="maths"><a class="header" href="#maths">Maths</a></h1>
 <p>$$ \mu = \frac{1}{N} \sum_{i=0} x_i $$</p>
-<h1 id="theme"><a class="header" href="#theme">Theme</a></h1>
+<h1 id="plantuml-themes"><a class="header" href="#plantuml-themes">PlantUML Themes:</a></h1>
 <p><a href="https://the-lum.github.io/puml-themes-gallery/">list of official theme</a>
 <a href="https://bschwarz.github.io/puml-themes/gallery.html">gallery</a></p>
 <ol>
 <li>mars</li>
 <li>blueprint</li>
 </ol>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="high-frequrency-trading"><a class="header" href="#high-frequrency-trading">High Frequrency Trading</a></h1>
+<h1 id="reference-3"><a class="header" href="#reference-3">Reference:</a></h1>
+<ul>
+<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/samples/C4CoreDiagrams.md">C4 core diagram</a></li>
+<li><a href="https://c4model.com/#examples">C4 modelling</a></li>
+<li><a href="https://graphviz.org/">graphviz</a></li>
+<li><a href="http://magjac.com/graphviz-visual-editor/">graphviz online editor</a></li>
+<li><a href="https://diagrams.mingrammer.com/">cloud arh</a></li>
+<li><a href="https://github.com/plantuml-stdlib/C4-PlantUML">C4-PlantUM</a></li>
+<li><a href="https://plantuml.com/en/">plantuml</a></li>
+<li><a href="https://github.com/awslabs/aws-icons-for-plantuml">aws plantuml</a></li>
+<li><a href="https://docs.asciidoctor.org/diagram-extension/latest/#meme">asciidoc</a></li>
+<li><a href="https://vega.github.io/vega/">VISUALIZATION GRAMMARS</a></li>
+<li><a href="%5Bhttps://vega.github.io/vega-lite/">vega-lite</a></li>
+<li><a href="https://kroki.io/#cheat-sheet">kroki</a>  - using it to support vega ?</li>
+<li><a href="https://github.com/mermaid-js/mermaid">mermaid demo</a></li>
+<li><a href="https://github.com/kbknapp/cargo-graph">cargo dependency graph</a></li>
+<li><a href="https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html">Tutorial on Plantuml</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><p>articles on market opportunity
+<a href="https://www.gminsights.com/industry-analysis/fraud-detection-and-prevention-market">1</a>
+<a href="https://www.fortunebusinessinsights.com/industry-reports/fraud-detection-and-prevention-market-100231">2</a>
+<a href="https://www.grandviewresearch.com/industry-analysis/fraud-detection-prevention-market">3</a>
+<a href="https://www.globenewswire.com/news-release/2019/07/17/1883895/0/en/Global-Fraud-Detection-and-Prevention-Market-Report-2019-Historical-Data-2014-2017-Base-Year-of-2018-2019-Estimates-Forecasts-2020-2024.html">4</a>
+<a href="https://www.mordorintelligence.com/industry-reports/global-fraud-detection-and-prevention-fdp-market-industry">5</a></p>
+<h1 id="fraud-detection-market-size"><a class="header" href="#fraud-detection-market-size">Fraud Detection Market Size</a></h1>
+<p>A typical IT service deployment may cost between $75 to $300 per users <sup class="footnote-reference"><a href="#a">1</a></sup>
+<sup class="footnote-reference"><a href="#a">1</a></sup>: https://www.industryarc.com/Research/IT-Services-Market-Research-501180</p>
+<p>Global Fraud Detection and Prevention Market to Reach $46.4 Billion by 2026 <sup class="footnote-reference"><a href="#b">2</a></sup>
+<sup class="footnote-reference"><a href="#b">2</a></sup>: https://www.prnewswire.com/news-releases/global-fraud-detection-and-prevention-market-to-reach-46-4-billion-by-2026--301499029.html</p>
+<p>The global fraud detection &amp; prevention market was valued at $29.80 billion in 2021<sup class="footnote-reference"><a href="#c">3</a></sup>
+<sup class="footnote-reference"><a href="#c">3</a></sup>: https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market</p>
+<p>https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market
+https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-market-1312.html
+<a href="https://www.statista.com/outlook/tmo/public-cloud/united-states">market statistics</a>
+[financial im</p>
+<h1 id="anomaly-detection"><a class="header" href="#anomaly-detection">Anomaly Detection</a></h1>
+<p><a href="https://ff12.fastforwardlabs.com/">Deep Learning for Anomaly Detection</a>
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152173">A Comparative Evaluation of Unsupervised Anomaly Detection Algorithms for Multivariate Data</a>
+<a href="https://arxiv.org/pdf/2007.02500.pdf">Deep Learning for Anomaly Detection: A Review</a>
+<a href="https://medium.com/@himsmittal/open-source-anomaly-detection-projects-2437dacfc901">open source anomaly detection</a>
+<a href="https://numenta.com/machine-intelligence-technology/numenta-anomaly-benchmark/">The Numenta Anomaly Benchmark (NAB)</a></p>
+<h1 id="system-dynamics"><a class="header" href="#system-dynamics">System Dynamics</a></h1>
+<p><a href="https://web.wpi.edu/Pubs/E-project/Available/E-project-052812-144829/unrestricted/MathematicsBehindSystemDynamics.pdf">Mathematics behind System Dynamics</a></p>
+<h1 id="fraud-detection"><a class="header" href="#fraud-detection">Fraud Detection</a></h1>
+<p><a href="https://fingerprint.com/blog/github-projects-fraud-prevention/">The 8 Best GitHub Projects for Fraud Detection and Prevention</a>
+<a href="https://www.goodfirms.co/blog/best-free-open-source-fraud-detection-software">opensource fraud detection</a>
+<a href="https://h2o.ai/content/h2o/language-masters/en/case-studies/">h2o open source AI model training, deployment , POJO for real-time scoring</a>
+<a href="https://en.wikipedia.org/wiki/Fault_detection_and_isolation">fault detection isolation - FDI</a>
+<a href="https://wso2.com/whitepapers/fraud-detection-and-prevention-a-data-analytics-approach/">wso2 fraud detection reference architecture</a>
+<a href="https://github.com/benedekrozemberczki/awesome-fraud-detection-papers">awesome fraud detection list</a>
+<a href="https://github.com/awslabs/fraud-detection-using-machine-learning">aws tutorial</a>
+<a href="https://developer.redis.com/howtos/frauddetection/">building fault detection system using redis</a>
+<img src="https://redis.com/wp-content/uploads/2020/07/diagram-fraud-detection.svg?&amp;auto=webp&amp;quality=85,75&amp;width=1200" alt="fault detection architecture using redis" />
+<a href="https://lp.redis.com/rs/915-NFD-128/images/RedisLabs-Solution-Fraud-Detection.pdf">redis fraud detection whitepaper</a>
+<a href="https://www.confluent.io/kafka-summit-san-francisco-2019/mission-critical-real-time-fault-detection-for-nasas-deep-space-network-using-apache-kafka/">NASA - real-time-fault-detection using kafka</a></p>
+<p><a href="https://www.forbes.com/sites/jordanmckee/2020/11/22/unpacking-the-overall-impact-of-fraud/?sh=a43067f78914">impact due to fraud</a>
+<a href="https://www.fisglobal.com/en/insights/merchant-solutions-worldpay/article/the-best-fraud-prevention-strategies-for-ecommerce">6% revenue lost due to fraud, 1% to 5% profit spending on fraud</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="micokernel-pattern"><a class="header" href="#micokernel-pattern">micokernel pattern</a></h1>
+<p><a href="https://www.youtube.com/watch?v=h3icQDMRLd8">Microkernel Architectural Pattern</a>
+<a href="https://developer.ibm.com/series/osgi-demystified-article-series/">IBM's OSGI articles</a>
+<a href="https://www.youtube.com/watch?v=zH4_A1rtES8">Kirk Knoernschild on modularity patterns</a>
+<a href="https://www.infoq.com/articles/monolith-defense-part-1/">modularity</a>
+<a href="https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven">Event driven architecture</a>
+<a href="https://dzone.com/articles/apache-karaf-microservices">Apache Karaf Microservices</a>
+<a href="https://lucian-davitoiu.medium.com/a-camel-project-example-with-java-beans-and-osgi-blueprint-in-karaf-5dc172e09829">osgi + camel</a>
+<a href="https://www.exoscale.com/syslog/building-microservices-in-osgi-with-the-apache-karaf-framework/">Building Microservices in OSGi with the Apache Karaf Framework</a>
+<a href="http://www.kamilgrzybek.com/design/modular-monolith-primer/">Modular Monolith: A Primer</a>
+<a href="https://www.youtube.com/watch?v=6_UU90fSYTk">osgi best practices</a>
+<a href="https://www.youtube.com/watch?v=y_dg5MPbaX8">Microservices &amp; OSGi: Better together?</a>
+<a href="https://www.c-sharpcorner.com/article/an-overview-of-microkernel-architecture-pattern/">An Overview Of MicroKernel Architecture Pattern</a><br />
+<a href="https://www.viralpatel.net/microkernel-architecture-pattern-apply-software-systems/">Microkernel Architecture Pattern &amp; Applying it to Software Systems</a>
+<a href="https://blog.softwaremill.com/actor-model-and-event-sourcing-aa00993d2f1e">Actor Model and Event Sourcing</a></p>
+<p><a href="https://pages.awscloud.com/AWS-Learning-Path-How-to-Use-Amazon-EventBridge-to-Build-Decoupled-Event-Driven-Architectures_2020_LP_0001-SRV.html?&amp;trk=ps_a134p000003yBd8AAE&amp;trkCampaign=FY20_2Q_eventbridge_learning_path&amp;sc_channel=ps&amp;sc_campaign=FY20_2Q_EDAPage_eventbridge_learning_path&amp;sc_outcome=PaaS_Digital_Marketing&amp;sc_publisher=Google">Event Driven Architecture</a>
+<a href="https://aws.amazon.com/tw/event-driven-architecture/">AWS EDA</a></p>
+<h1 id="axon-eventstore-training"><a class="header" href="#axon-eventstore-training">Axon EventStore Training</a></h1>
+<p><a href="https://academy.axoniq.io/path-player?courseid=ddd-cqrs-eventsourcing-concepts&amp;unit=60928138325bf8218e4f4325Unit">Introduction to DDD, CQRS and Event Sourcing - 5h</a>
+<a href="https://academy.axoniq.io/course/ddd-cqrs-eventsourcing-axon">Implementing DDD, CQRS and Event Sourcing with Axon - 5h</a></p>
+<h1 id="eventstoredb-training"><a class="header" href="#eventstoredb-training">EventstoreDB Training</a></h1>
+<p><a href="https://learn.eventstore.com/webinar-recording-introduction-to-event-sourcing">Introduction to Event Sourcing - 2h</a>
+<a href="https://learn.eventstore.com/webinar-recording-cqrs-and-event-sourcing?submissionGuid=28beafd5-1a5c-4967-acd0-274adf3058b5">CQRS and Event Sourcing - 2h</a>
+<a href="https://learn.eventstore.com/webinar-recording-read-models-and-projections-in-event-sourcing?utm_campaign=Webinar%20-%20Read%20models%20and%20projections&amp;utm_medium=email&amp;_hsmi=142683594&amp;_hsenc=p2ANqtz--sIntR2V1Z3Eb2rcTD-jx96ZvhphxDjOcCaT5by9vBLPBFAACVPEHwBq3lhw6UToEw15ndnuAAAysUSZKC4fesKJ8FFA&amp;utm_content=142683594&amp;utm_source=hs_automation">Read Models and Projections in Event Sourcing</a>
+<a href="https://www.youtube.com/watch?v=CI7JPFLlpBw">How to deal with privacy and GDPR in Event-Sourced systems</a>
+<a href="https://learn.eventstore.com/webinar-recording-qa-event-sourcing-cqrs-and-ddd?submissionGuid=7ed7d2cf-1bb6-4f99-be23-1930f38ade74">Q&amp;A - Event Sourcing, CQRS, and DDD</a></p>
+<h1 id="domain-driven-design"><a class="header" href="#domain-driven-design">Domain Driven Design</a></h1>
+<p><a href="https://www.youtube.com/watch?v=OTNHR5EdAs8&amp;list=PLbRpnAmQ6xsBGB_mRAUob8WRBsSL_IsBO&amp;index=1">Apache Isis tutorial</a>
+<a href="https://learning.oreilly.com/videos/domain-driven-design-distilled/9780134593449/">DDD distill by Vaughn Vernon</a> 
+<a href="https://www.youtube.com/watch?v=h_HjtYAH0AI&amp;t=1342s">7 Years of DDD - lecture by Vladik Khononov </a>
+<a href="https://www.algotrader.com/intelligence/modern-trading-applications-architectures-an-overview-of-the-lmax-disruptor-pattern-and-project-reactor/">LMAX vs actor pattern</a></p>
+<h1 id="high-frequency-trading"><a class="header" href="#high-frequency-trading">High Frequency Trading</a></h1>
 <p><a href="http://turingfinance.com/wp-content/uploads/2013/11/U10026942_SoftwareArchitectureDocument_ATs.pdf">Algorithmic Trading System</a>
-<a href="https://www.algotrader.com/">Algorithmic Trading System</a></p>
-<h1 id="evolution-of-financial-exchange-architectures"><a class="header" href="#evolution-of-financial-exchange-architectures">Evolution of Financial Exchange Architectures</a></h1>
+<a href="https://www.algotrader.com/">Algorithmic Trading System</a>
+<a href="https://www.infoq.com/presentations/financial-exchange-architecture/#mainLogin/">performance talk by Martin Thompson</a>
+<a href="https://www.youtube.com/watch?v=TaFNhNNua5c">modularity talk by Kirk Knoernschild</a>
+<a href="https://www.vamsitalkstech.com/aml/why-big-data-intelligent-middleware-will-revolutionize-financial-trading-part-1-of-3/">financial trading</a><br />
+<a href="https://ariel-silahian.medium.com/how-do-i-design-high-frequency-trading-systems-and-its-architecture-part-ii-81e67cc7a8f5">how to design HFT</a>
+<a href="https://blog.quantinsti.com/automated-trading-system/">automated trading syste</a></p>
+<h1 id="financial-exchange-architectures"><a class="header" href="#financial-exchange-architectures">Financial Exchange Architectures</a></h1>
 <p><a href="https://www.infoq.com/presentations/financial-exchange-architecture/">financial exchange</a>
 <a href="https://wso2.com/whitepapers/">wso2 reference architecture</a>
 <a href="https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/Trading_Floor_Architecture-E.pdf">trading floor achitecture</a></p>
-<h1 id="open-source"><a class="header" href="#open-source">open source</a></h1>
-<p><a href="https://www.apache.org/foundation/how-it-works.html">the apache ways</a></p>
 <h1 id="wso2-api-manager--esb"><a class="header" href="#wso2-api-manager--esb">WSO2 API manager + ESB</a></h1>
 <p><a href="https://apim.docs.wso2.com/en/latest/get-started/apim-architecture/">wso2</a>
-<a href="https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd">How to build a real-time, event-driven information system with WSO2 API Manager and Kafka</a></p>
-<p><a href="https://karaf.apache.org/">apache karaf modulith runtime</a></p>
-<h1 id="wso2-choreo-api-marketplace"><a class="header" href="#wso2-choreo-api-marketplace"><a href="https://wso2.com/choreo/">WSO2 Choreo API marketplace</a></a></h1>
-<h1 id="micokernel-pattern"><a class="header" href="#micokernel-pattern">micokernel pattern</a></h1>
-<p><a href="https://www.youtube.com/watch?v=h3icQDMRLd8">Microkernel Architectural Pattern</a>
-<a href="https://developer.ibm.com/series/osgi-demystified-article-series/">IBM's OSGI articles</a>
-<a href="https://www.youtube.com/watch?v=zH4_A1rtES8">Kirk Knoernschild on modularity patterns</a></p>
+<a href="https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd">How to build a real-time, event-driven information system with WSO2 API Manager and Kafka</a>
+<a href="https://karaf.apache.org/">apache karaf modulith runtime</a>
+<a href="https://wso2.com/choreo/">WSO2 Choreo API marketplace</a></p>
 <h1 id="architecture-decision-record"><a class="header" href="#architecture-decision-record">Architecture Decision Record</a></h1>
 <p>https://adr.github.io/madr/
 https://www.structurizr.com/help/decision-log
@@ -838,278 +909,6 @@ Data Mesh
 Policy as code
 Blockchain
 HTTP/3</p>
-<p><a href="https://stanford-cs242.github.io/f19/">Stanford CS242 Programming Languages (in Rust)</a></p>
-<h2 id="topics-1"><a class="header" href="#topics-1">Topics</a></h2>
-<ul>
-<li>Von Neumann Style</li>
-<li>Syntax and semantics, Types and Programming Languages</li>
-<li>Lambda calculus</li>
-<li>Functional basics, Algebraic data types</li>
-<li>Parametric types</li>
-<li>Mutability</li>
-<li>Control flow: branches</li>
-<li>Control flow: functions</li>
-<li>Memory safety	</li>
-<li>Traits</li>
-<li>Smart pointers</li>
-<li>Fearless Concurrency</li>
-<li>Typestate</li>
-<li>Session types</li>
-<li>Parallelism and programming languages </li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/">MIT 6.004 Computation Structures</a></p>
-<h2 id="topics-2"><a class="header" href="#topics-2">Topics</a></h2>
-<ul>
-<li>Basics of information: entropy, encodings, error correction</li>
-<li>The digital abstraction: combinational logic, voltage-based encoding</li>
-<li>CMOS: MOSFETs, gate design; timing</li>
-<li>Combinational logic: canonical forms, synthesis, simplification</li>
-<li>Sequential logic: latches, registers, timing</li>
-<li>Finite-state machines (FSMs); asynchronous inputs and metastability</li>
-<li>Performance measures: throughput and latency, pipelining</li>
-<li>Design tradeoffs: power, speed, area, throughput</li>
-<li>von Neumann architectures, Beta instruction set</li>
-<li>Assembly language</li>
-<li>Compiling expressions and statements</li>
-<li>Stacks and procedures</li>
-<li>Beta implementation</li>
-<li>Multilevel memories: locality, performance, caches</li>
-<li>Cache design issues</li>
-<li>Pipelining the Beta: pipeline diagrams, data hazards</li>
-<li>Pipelining the Beta: control hazards, dealing with exceptions </li>
-<li>Virtual memory: mapping, protection, contexts</li>
-<li>Virtual machines: timesharing, OS kernels, supervisor calls</li>
-<li>Devices and interrupts; real-time	</li>
-<li>Communicating processes: semaphores, synchronization, atomicity, deadlock</li>
-<li>System-level communication	</li>
-<li>Parallel processing: performance limits, data- and thread-level parallelism</li>
-<li>Building a Better Beta: tips for the design project</li>
-</ul>
-<p><a href="http://web.mit.edu/6.031/www/sp22/">MIT 6.031: Software Construction (in TypeScript)</a></p>
-<h2 id="topics-3"><a class="header" href="#topics-3">Topics</a></h2>
-<p>01: Static Checking
-02: Basic TypeScript
-03: Testing
-04: Code Review // TODO established code reviewing guideline
-05: Version Control
-06: Specifications
-07: Designing Specifications
-08: Mutability &amp; Immutability
-09: Avoiding Debugging
-10: Abstract Data Types
-11: Abstraction Functions &amp; Rep Invariants
-12: Interfaces, Generics, &amp; Enums
-13: Debugging
-14: Recursion
-15: Equality
-16: Map, Filter, Reduce
-17: Recursive Data Types
-18: Regular Expressions &amp; Grammars
-19: Parsers
-20: Callbacks &amp; Graphical User Interfaces
-21: Concurrency
-22: Promises
-23: Mutual Exclusion
-24: Message Passing
-25: Networking
-26: Little Languages I
-27: Little Languages II
-28: Ethical Software Engineering
-29: Team Version Control</p>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/index.htm">MIT 6.006 Introduction to Algorithms</a></p>
-<h2 id="topics-4"><a class="header" href="#topics-4">Topics</a></h2>
-<ul>
-<li>Data Structures</li>
-<li>Sorting</li>
-<li>Hashing</li>
-<li>Linear Sorting</li>
-<li>Binary Trees</li>
-<li>Binary Heaps</li>
-<li>Breadth-First Search</li>
-<li>Depth-First Search</li>
-<li>Weighted Shortest</li>
-<li>Bellman-Ford</li>
-<li>Dijkstra's Algorithm</li>
-<li>ASP &amp; Johnson's Algorithm </li>
-<li>Dynamic Programming: SRBOT, Fib, DAGs, Bowling   LCS, LIS, Coins, Rods, Subsetsums, Pseudopolynomial</li>
-<li>Complexity</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm">MIT 6.046J Design and Analysis of Algorithms</a></p>
-<h2 id="topics-5"><a class="header" href="#topics-5">Topics</a></h2>
-<ul>
-<li>Overview, Interval Scheduling </li>
-<li>Divide &amp; Conquer: Convex Hull, Median Finding, FFT, Van Emde Boas Trees</li>
-<li>Amortization: Amortized Analysis </li>
-<li>Randomization: Matrix Multiply, Quicksort, Skip Lists, Universal &amp; Perfect Hashing</li>
-<li>Augmentation: Range Trees</li>
-<li>Dynamic Programming: Advanced DP, All-pairs Shortest Paths</li>
-<li>Greedy Algorithms: Minimum Spanning Tree</li>
-<li>Incremental Improvement: Max Flow, Min Cut, Matching </li>
-<li>Linear Programming: LP, Reductions, Simplex</li>
-<li>Complexity: P, NP, NP-completeness, Reductions, Approximation Algorithms, Fixed-parameter Algorithms</li>
-<li>Synchronous Distributed Algorithms: Symmetry-breaking. Shortest-paths Spanning Trees</li>
-<li>Asynchronous Distributed Algorithms: Shortest-paths Spanning Trees</li>
-<li>Cryptography: Hash Functions, Encryption </li>
-<li>Cache-oblivious Algorithms: Medians &amp; Matrices, Searching &amp; Sorting</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm">6.033	Computer Systems Engineering</a></p>
-<h2 id="topics-6"><a class="header" href="#topics-6">Topics</a></h2>
-<ul>
-<li>Operating Systems:</li>
-<li>Coping with Complexity</li>
-<li>Naming in Systems</li>
-<li>Operating Systems + Virtual Memory</li>
-<li>Bounded Buffers + Locks</li>
-<li>Threads</li>
-<li>Operating Systems Structure + Virtual Machines</li>
-<li>Performance</li>
-<li>Networking:</li>
-<li>Intro to Networking</li>
-<li>Routing </li>
-<li>BGP</li>
-<li>Transport Layer</li>
-<li>In-Network Resource Management</li>
-<li>P2P Networks + Content Distribution Networks</li>
-<li>Distributed Systems: </li>
-<li>Reliability via Replication</li>
-<li>Introductions to Transactions</li>
-<li>Atomicity via Logging</li>
-<li>Fault Tolerence Isolation</li>
-<li>Distributed Transactions</li>
-<li>Availability via Replication</li>
-<li>Security: </li>
-<li>Intro to Security</li>
-<li>Authentication and Passwords</li>
-<li>Secure Channels</li>
-<li>Network Security and DDoS Attacks</li>
-<li>Bitcoin</li>
-<li>Tor</li>
-<li>Policy vs Mechanism</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/mathematics/18-s191-introduction-to-computational-thinking-fall-2020/index.htm">MIT 18.S191 Introduction to computational thinking (in Julia)</a></p>
-<p><a href="https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/">6.036	Introduction to Machine Learning (in Python)</a></p>
-<ul>
-<li>Perceptrons</li>
-<li>Features</li>
-<li>Margin Maximization</li>
-<li>Regression</li>
-<li>Neural Networks I</li>
-<li>Neural Networks II</li>
-<li>Convolutional Neural Networks </li>
-<li>State Machines and Markov Decision Processes</li>
-<li>Reinforcement Learning</li>
-<li>Recurrent Neural Networks</li>
-<li>Recommender Systems</li>
-<li>Decision Trees and Nearest Neighbors</li>
-</ul>
-<p><a href="http://introtodeeplearning.com/2020/index.html">Introduction to Deep Learning (in Python)</a></p>
-<ul>
-<li>Intro to Deep Learning</li>
-<li>Deep Sequence Modeling</li>
-<li>TensorFlow</li>
-<li>Deep Computer Vision</li>
-<li>Deep Generative Modeling</li>
-<li>De-biasing Facial Recognition Systems</li>
-<li>Deep Reinforcement Learning</li>
-<li>Limitations and New Frontiers</li>
-<li>Pixels to Control Learning</li>
-<li>Neurosymbolic Hybrid AI</li>
-<li>Generalizable Autonomy in Robotics</li>
-<li>Neural Rendering</li>
-<li>ML for Scent</li>
-</ul>
-<h1 id="advance-computer-science"><a class="header" href="#advance-computer-science">Advance Computer Science</a></h1>
-<p><a href="https://learning.edx.org/course/course-v1:StanfordOnline+CSX0005+1T2020/home">Jeff Ullman's Automata Theory</a>
-Week 1: Finite Automata, Incomplete section
-Week 2: Regular Expressions and Properties of Regular Languages, Incomplete section
-Week 3: Context-Free Grammars and Pushdown Automata, Incomplete section
-Week 4: Pushdown Automata and Properties of Context-Free Languages, Incomplete section
-Week 5: Turing Machines and Undecidability, Incomplete section
-Week 6: Intractable Problems and NP-completeness</p>
-<p><a href="https://ocwnext.odl.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/">MIT 6.045 Automata, Computability, and Complexity</a></p>
-<h2 id="topics-7"><a class="header" href="#topics-7">Topics</a></h2>
-<ul>
-<li>Logic, circuits, and gates</li>
-<li>Deterministic finite automata (DFAs) and nondeterministic finite automata (NFAs)</li>
-<li>NFAs and regular expressions</li>
-<li>Non-regular languages and the pumping lemma</li>
-<li>Turing machines</li>
-<li>Decidability</li>
-<li>Undecidable problems and Post correspondence problem (PCP)</li>
-<li>Mapping reducibility and Rice's theorem</li>
-<li>Self-reference and the recursion theorem</li>
-<li>Introduction to cryptography</li>
-<li>Complexity theory</li>
-<li>Pseudorandom generators and one-way functions</li>
-<li>Public-key cryptography</li>
-<li>More complexity theory</li>
-<li>More NP-completeness</li>
-<li>Probabilistic Turing machines and complexity classes</li>
-<li>Trapdoor one-way functions and zero-knowledge proofs</li>
-<li>Probably approximately correct (PAC) learning</li>
-<li>More PAC learning</li>
-<li>Introduction to quantum</li>
-<li>Quantum mechanics and BQP</li>
-<li>Quantum algorithms</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2020/index.htm">MIT 18.404 Theory of Computation</a></p>
-<h2 id="topics-8"><a class="header" href="#topics-8">Topics</a></h2>
-<ul>
-<li>Introduction, Finite Automata, Regular Expressions</li>
-<li>Nondeterminism, Closure Properties, Regular Expressions → Finite Automata	</li>
-<li>The Regular Pumping Lemma, Finite Automata → Regular Expressions, CFGs	</li>
-<li>Pushdown Automata, CFG ↔ PDA</li>
-<li>The CF Pumping Lemma, Turing Machines</li>
-<li>TM Variants, the Church-Turing Thesis</li>
-<li>Decision Problems for Automata and Grammars</li>
-<li>Undecidability2MB)</li>
-<li>Reducibility</li>
-<li>The Computation History Method</li>
-<li>The Recursion Theorem and Logic</li>
-<li>Time Complexity</li>
-<li>P and NP, SAT, Poly-time Reducibility</li>
-<li>NP-Completeness</li>
-<li>Cook-Levin Theorem</li>
-<li>Space Complexity, PSPACE, Savitch's Theorem</li>
-<li>PSPACE-Completeness</li>
-<li>Games, Generalized Geography</li>
-<li>L and NL, NL = coNL</li>
-<li>Hierarchy Theorems</li>
-<li>Provably Intractable Problems, Oracles</li>
-<li>Probabilistic Computation, BPP</li>
-<li>Probabilistic Computation (cont.)</li>
-<li>Interactive Proof Systems, IP</li>
-<li>coNP ⊆ IP</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/index.htm">MIT 6.830 Database Systems</a></p>
-<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/">MIT 6.001 Structure and Interpretation of Computer Programs (in Scheme)</a></p>
-<h2 id="topics-9"><a class="header" href="#topics-9">Topics</a></h2>
-<ul>
-<li>Building Abstractions:</li>
-<li>Computational Processes</li>
-<li>Higher-order Procedures</li>
-<li>Compound Data</li>
-<li>Data Abstractions</li>
-<li>Controlling Interactions:</li>
-<li>Generic Operations</li>
-<li>Self-describing Data</li>
-<li>Message Passing</li>
-<li>Streams and Infinite Data Structures</li>
-<li>Object-oriented Programming</li>
-<li>Meta-linguistic Abstraction:</li>
-<li>Interpretation of Programming Languages</li>
-<li>Embedded Languages</li>
-</ul>
-<p><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/">MITX 685 advance data structure</a> </p>
-<p><a href="https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/">MIT 14.13 PSYCHOLOGY AND ECONOMICS</a></p>
-<p><a href="https://cs249i.stanford.edu/">Stanford CS249i The Modern Internet 2021</a>
-<a href="https://cs251.stanford.edu/">Stanford CS251: Cryptocurrencies and Blockchain Technologies</a>
-<a href="https://web.stanford.edu/class/cs224w/">Stanford CS224W: Machine Learning with Graphs</a>
-<a href="https://cs145-fa21.github.io/">Stanford CS145: Data Management and Data Systems</a>
-<a href="https://web.stanford.edu/class/cs253/">Stanford CS253 web security</a>
-<a href="https://web.stanford.edu/class/cs349d/">Stanford CS - CS349D: Cloud Computing Technology</a>
-<sup class="footnote-reference"><a href="#1">1</a></sup>:<a href="https://en.wikipedia.org/wiki/Turing_machine">Turing machine</a>
-<a href="https://programming-idioms.org/cheatsheets">programming idioms</a></p>
 <h1 id="search-engine"><a class="header" href="#search-engine">Search Engine</a></h1>
 <p><a href="https://wiki.nikitavoloboev.xyz/web/search-engines">search engine</a>
 <a href="https://quickwit.io/"></a>
@@ -1149,14 +948,15 @@ nuxt serverless template: https://github.com/jake-101/bael-template
 https://css-tricks.com/creating-dynamic-routes-in-a-nuxt-application/
 https://templates.netlify.com/template/netlifycms-gridsome/
 [A Jamstack framework for Vue.js] (https://gridsome.org/)</p>
-<h1 id="open-open-index"><a class="header" href="#open-open-index">Open Open index</a></h1>
+<h1 id="open-source-ecosystem"><a class="header" href="#open-source-ecosystem">Open Source Ecosystem</a></h1>
 <p><a href="https://runacap.com/ross-index/">ROSS index</a>
 <a href="https://medium.com/runacapital/open-source-growth-benchmarks-and-the-20-fastest-growing-oss-startups-d3556a669fe6"></a>
 <a href="https://medium.com/runacapital/open-source-growth-benchmarks-extention-the-ross-index-and-the-fastest-growing-startups-in-q3-2020-7aee7fa7eed7"></a>
 <a href="https://github.com/RunaCapital/awesome-oss-alternatives">awesome OSS list</a>
 (https://medium.com/runacapital/open-source-analysis-and-os-databases-1eb1fe840719)
 <a href="https://gitplanet.com/">gitplanet</a>
-<a href="https://kandi.openweaver.com/home">kandi</a></p>
+<a href="https://kandi.openweaver.com/home">kandi</a>
+<a href="https://www.apache.org/foundation/how-it-works.html">the apache ways</a></p>
 <h1 id="awewsome-list"><a class="header" href="#awewsome-list">awewsome list</a></h1>
 <p><a href="https://github.com/awesomedata/awesome-public-datasets">public datasets</a>
 <a href="https://github.com/Hack-with-Github/Awesome-Hacking">hacking</a>
@@ -1201,13 +1001,9 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/">regular expression</a>
 <a href="http://www.cheat-sheets.org/saved-copy/Ssl_handshake_with_two_way_authentication_with_certificates-1.pdf">SSL</a>
 <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">VS Code cheat sheet</a>
-<a href="https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf">intellij cheat</a></p>
-<h1 id="rust--kotlin"><a class="header" href="#rust--kotlin">Rust &amp; Kotlin</a></h1>
-<p><a href="https://www.beust.com/weblog/what-kotlin-could-learn-from-rust/">kotlin vs rust:</a>
-<a href="https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/"></a>
-<a href="https://www.jetbrains.com/lp/devecosystem-2021/">The State of Developer Ecosystem 2021</a>
-<a href="http://detexify.kirelabs.org/classify.html">cool app written in haskell</a>
-(https://blog.allegro.tech/2020/04/immutability-in-java.html)</p>
+<a href="https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf">intellij cheat</a>
+<sup class="footnote-reference"><a href="#1">1</a></sup>:<a href="https://en.wikipedia.org/wiki/Turing_machine">Turing machine</a>
+<a href="https://programming-idioms.org/cheatsheets">programming idioms</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="verification-vs-validation"><a class="header" href="#verification-vs-validation">verification vs validation</a></h1>
 <ul>
 <li>verification: internal, compliance</li>
@@ -1419,6 +1215,276 @@ https://sinoglobalcap.medium.com/why-we-are-bullish-on-solana-c2be784cfdf6
 <ul>
 <li>600B annual global investment, around 150B per quarter. Blockchain has taken 10% of total </li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><p><a href="https://stanford-cs242.github.io/f19/">Stanford CS242 Programming Languages (in Rust)</a></p>
+<h2 id="topics-1"><a class="header" href="#topics-1">Topics</a></h2>
+<ul>
+<li>Von Neumann Style</li>
+<li>Syntax and semantics, Types and Programming Languages</li>
+<li>Lambda calculus</li>
+<li>Functional basics, Algebraic data types</li>
+<li>Parametric types</li>
+<li>Mutability</li>
+<li>Control flow: branches</li>
+<li>Control flow: functions</li>
+<li>Memory safety</li>
+<li>Traits</li>
+<li>Smart pointers</li>
+<li>Fearless Concurrency</li>
+<li>Typestate</li>
+<li>Session types</li>
+<li>Parallelism and programming languages</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/">MIT 6.004 Computation Structures</a></p>
+<h2 id="topics-2"><a class="header" href="#topics-2">Topics</a></h2>
+<ul>
+<li>Basics of information: entropy, encodings, error correction</li>
+<li>The digital abstraction: combinational logic, voltage-based encoding</li>
+<li>CMOS: MOSFETs, gate design; timing</li>
+<li>Combinational logic: canonical forms, synthesis, simplification</li>
+<li>Sequential logic: latches, registers, timing</li>
+<li>Finite-state machines (FSMs); asynchronous inputs and metastability</li>
+<li>Performance measures: throughput and latency, pipelining</li>
+<li>Design tradeoffs: power, speed, area, throughput</li>
+<li>von Neumann architectures, Beta instruction set</li>
+<li>Assembly language</li>
+<li>Compiling expressions and statements</li>
+<li>Stacks and procedures</li>
+<li>Beta implementation</li>
+<li>Multilevel memories: locality, performance, caches</li>
+<li>Cache design issues</li>
+<li>Pipelining the Beta: pipeline diagrams, data hazards</li>
+<li>Pipelining the Beta: control hazards, dealing with exceptions</li>
+<li>Virtual memory: mapping, protection, contexts</li>
+<li>Virtual machines: timesharing, OS kernels, supervisor calls</li>
+<li>Devices and interrupts; real-time</li>
+<li>Communicating processes: semaphores, synchronization, atomicity, deadlock</li>
+<li>System-level communication</li>
+<li>Parallel processing: performance limits, data- and thread-level parallelism</li>
+<li>Building a Better Beta: tips for the design project</li>
+</ul>
+<p><a href="http://web.mit.edu/6.031/www/sp22/">MIT 6.031: Software Construction (in TypeScript)</a></p>
+<h2 id="topics-3"><a class="header" href="#topics-3">Topics</a></h2>
+<p>01: Static Checking
+02: Basic TypeScript
+03: Testing
+04: Code Review // TODO established code reviewing guideline
+05: Version Control
+06: Specifications
+07: Designing Specifications
+08: Mutability &amp; Immutability
+09: Avoiding Debugging
+10: Abstract Data Types
+11: Abstraction Functions &amp; Rep Invariants
+12: Interfaces, Generics, &amp; Enums
+13: Debugging
+14: Recursion
+15: Equality
+16: Map, Filter, Reduce
+17: Recursive Data Types
+18: Regular Expressions &amp; Grammars
+19: Parsers
+20: Callbacks &amp; Graphical User Interfaces
+21: Concurrency
+22: Promises
+23: Mutual Exclusion
+24: Message Passing
+25: Networking
+26: Little Languages I
+27: Little Languages II
+28: Ethical Software Engineering
+29: Team Version Control</p>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/index.htm">MIT 6.006 Introduction to Algorithms</a></p>
+<h2 id="topics-4"><a class="header" href="#topics-4">Topics</a></h2>
+<ul>
+<li>Data Structures</li>
+<li>Sorting</li>
+<li>Hashing</li>
+<li>Linear Sorting</li>
+<li>Binary Trees</li>
+<li>Binary Heaps</li>
+<li>Breadth-First Search</li>
+<li>Depth-First Search</li>
+<li>Weighted Shortest</li>
+<li>Bellman-Ford</li>
+<li>Dijkstra's Algorithm</li>
+<li>ASP &amp; Johnson's Algorithm</li>
+<li>Dynamic Programming: SRBOT, Fib, DAGs, Bowling   LCS, LIS, Coins, Rods, Subsetsums, Pseudopolynomial</li>
+<li>Complexity</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm">MIT 6.046J Design and Analysis of Algorithms</a></p>
+<h2 id="topics-5"><a class="header" href="#topics-5">Topics</a></h2>
+<ul>
+<li>Overview, Interval Scheduling</li>
+<li>Divide &amp; Conquer: Convex Hull, Median Finding, FFT, Van Emde Boas Trees</li>
+<li>Amortization: Amortized Analysis</li>
+<li>Randomization: Matrix Multiply, Quicksort, Skip Lists, Universal &amp; Perfect Hashing</li>
+<li>Augmentation: Range Trees</li>
+<li>Dynamic Programming: Advanced DP, All-pairs Shortest Paths</li>
+<li>Greedy Algorithms: Minimum Spanning Tree</li>
+<li>Incremental Improvement: Max Flow, Min Cut, Matching</li>
+<li>Linear Programming: LP, Reductions, Simplex</li>
+<li>Complexity: P, NP, NP-completeness, Reductions, Approximation Algorithms, Fixed-parameter Algorithms</li>
+<li>Synchronous Distributed Algorithms: Symmetry-breaking. Shortest-paths Spanning Trees</li>
+<li>Asynchronous Distributed Algorithms: Shortest-paths Spanning Trees</li>
+<li>Cryptography: Hash Functions, Encryption</li>
+<li>Cache-oblivious Algorithms: Medians &amp; Matrices, Searching &amp; Sorting</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm">6.033	Computer Systems Engineering</a></p>
+<h2 id="topics-6"><a class="header" href="#topics-6">Topics</a></h2>
+<ul>
+<li>Operating Systems:</li>
+<li>Coping with Complexity</li>
+<li>Naming in Systems</li>
+<li>Operating Systems + Virtual Memory</li>
+<li>Bounded Buffers + Locks</li>
+<li>Threads</li>
+<li>Operating Systems Structure + Virtual Machines</li>
+<li>Performance</li>
+<li>Networking:</li>
+<li>Intro to Networking</li>
+<li>Routing</li>
+<li>BGP</li>
+<li>Transport Layer</li>
+<li>In-Network Resource Management</li>
+<li>P2P Networks + Content Distribution Networks</li>
+<li>Distributed Systems:</li>
+<li>Reliability via Replication</li>
+<li>Introductions to Transactions</li>
+<li>Atomicity via Logging</li>
+<li>Fault Tolerence Isolation</li>
+<li>Distributed Transactions</li>
+<li>Availability via Replication</li>
+<li>Security:</li>
+<li>Intro to Security</li>
+<li>Authentication and Passwords</li>
+<li>Secure Channels</li>
+<li>Network Security and DDoS Attacks</li>
+<li>Bitcoin</li>
+<li>Tor</li>
+<li>Policy vs Mechanism</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/mathematics/18-s191-introduction-to-computational-thinking-fall-2020/index.htm">MIT 18.S191 Introduction to computational thinking (in Julia)</a></p>
+<p><a href="https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/">6.036	Introduction to Machine Learning (in Python)</a></p>
+<ul>
+<li>Perceptrons</li>
+<li>Features</li>
+<li>Margin Maximization</li>
+<li>Regression</li>
+<li>Neural Networks I</li>
+<li>Neural Networks II</li>
+<li>Convolutional Neural Networks</li>
+<li>State Machines and Markov Decision Processes</li>
+<li>Reinforcement Learning</li>
+<li>Recurrent Neural Networks</li>
+<li>Recommender Systems</li>
+<li>Decision Trees and Nearest Neighbors</li>
+</ul>
+<p><a href="http://introtodeeplearning.com/2020/index.html">Introduction to Deep Learning (in Python)</a></p>
+<ul>
+<li>Intro to Deep Learning</li>
+<li>Deep Sequence Modeling</li>
+<li>TensorFlow</li>
+<li>Deep Computer Vision</li>
+<li>Deep Generative Modeling</li>
+<li>De-biasing Facial Recognition Systems</li>
+<li>Deep Reinforcement Learning</li>
+<li>Limitations and New Frontiers</li>
+<li>Pixels to Control Learning</li>
+<li>Neurosymbolic Hybrid AI</li>
+<li>Generalizable Autonomy in Robotics</li>
+<li>Neural Rendering</li>
+<li>ML for Scent</li>
+</ul>
+<h1 id="advance-computer-science"><a class="header" href="#advance-computer-science">Advance Computer Science</a></h1>
+<p><a href="https://learning.edx.org/course/course-v1:StanfordOnline+CSX0005+1T2020/home">Jeff Ullman's Automata Theory</a>
+Week 1: Finite Automata, Incomplete section
+Week 2: Regular Expressions and Properties of Regular Languages, Incomplete section
+Week 3: Context-Free Grammars and Pushdown Automata, Incomplete section
+Week 4: Pushdown Automata and Properties of Context-Free Languages, Incomplete section
+Week 5: Turing Machines and Undecidability, Incomplete section
+Week 6: Intractable Problems and NP-completeness</p>
+<p><a href="https://ocwnext.odl.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/">MIT 6.045 Automata, Computability, and Complexity</a></p>
+<h2 id="topics-7"><a class="header" href="#topics-7">Topics</a></h2>
+<ul>
+<li>Logic, circuits, and gates</li>
+<li>Deterministic finite automata (DFAs) and nondeterministic finite automata (NFAs)</li>
+<li>NFAs and regular expressions</li>
+<li>Non-regular languages and the pumping lemma</li>
+<li>Turing machines</li>
+<li>Decidability</li>
+<li>Undecidable problems and Post correspondence problem (PCP)</li>
+<li>Mapping reducibility and Rice's theorem</li>
+<li>Self-reference and the recursion theorem</li>
+<li>Introduction to cryptography</li>
+<li>Complexity theory</li>
+<li>Pseudorandom generators and one-way functions</li>
+<li>Public-key cryptography</li>
+<li>More complexity theory</li>
+<li>More NP-completeness</li>
+<li>Probabilistic Turing machines and complexity classes</li>
+<li>Trapdoor one-way functions and zero-knowledge proofs</li>
+<li>Probably approximately correct (PAC) learning</li>
+<li>More PAC learning</li>
+<li>Introduction to quantum</li>
+<li>Quantum mechanics and BQP</li>
+<li>Quantum algorithms</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2020/index.htm">MIT 18.404 Theory of Computation</a></p>
+<h2 id="topics-8"><a class="header" href="#topics-8">Topics</a></h2>
+<ul>
+<li>Introduction, Finite Automata, Regular Expressions</li>
+<li>Nondeterminism, Closure Properties, Regular Expressions → Finite Automata</li>
+<li>The Regular Pumping Lemma, Finite Automata → Regular Expressions, CFGs</li>
+<li>Pushdown Automata, CFG ↔ PDA</li>
+<li>The CF Pumping Lemma, Turing Machines</li>
+<li>TM Variants, the Church-Turing Thesis</li>
+<li>Decision Problems for Automata and Grammars</li>
+<li>Undecidability2MB)</li>
+<li>Reducibility</li>
+<li>The Computation History Method</li>
+<li>The Recursion Theorem and Logic</li>
+<li>Time Complexity</li>
+<li>P and NP, SAT, Poly-time Reducibility</li>
+<li>NP-Completeness</li>
+<li>Cook-Levin Theorem</li>
+<li>Space Complexity, PSPACE, Savitch's Theorem</li>
+<li>PSPACE-Completeness</li>
+<li>Games, Generalized Geography</li>
+<li>L and NL, NL = coNL</li>
+<li>Hierarchy Theorems</li>
+<li>Provably Intractable Problems, Oracles</li>
+<li>Probabilistic Computation, BPP</li>
+<li>Probabilistic Computation (cont.)</li>
+<li>Interactive Proof Systems, IP</li>
+<li>coNP ⊆ IP</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/index.htm">MIT 6.830 Database Systems</a></p>
+<p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/">MIT 6.001 Structure and Interpretation of Computer Programs (in Scheme)</a></p>
+<h2 id="topics-9"><a class="header" href="#topics-9">Topics</a></h2>
+<ul>
+<li>Building Abstractions:</li>
+<li>Computational Processes</li>
+<li>Higher-order Procedures</li>
+<li>Compound Data</li>
+<li>Data Abstractions</li>
+<li>Controlling Interactions:</li>
+<li>Generic Operations</li>
+<li>Self-describing Data</li>
+<li>Message Passing</li>
+<li>Streams and Infinite Data Structures</li>
+<li>Object-oriented Programming</li>
+<li>Meta-linguistic Abstraction:</li>
+<li>Interpretation of Programming Languages</li>
+<li>Embedded Languages</li>
+</ul>
+<p><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/">MITX 685 advance data structure</a></p>
+<p><a href="https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/">MIT 14.13 PSYCHOLOGY AND ECONOMICS</a></p>
+<p><a href="https://cs249i.stanford.edu/">Stanford CS249i The Modern Internet 2021</a>
+<a href="https://cs251.stanford.edu/">Stanford CS251: Cryptocurrencies and Blockchain Technologies</a>
+<a href="https://web.stanford.edu/class/cs224w/">Stanford CS224W: Machine Learning with Graphs</a>
+<a href="https://cs145-fa21.github.io/">Stanford CS145: Data Management and Data Systems</a>
+<a href="https://web.stanford.edu/class/cs253/">Stanford CS253 web security</a>
+<a href="https://web.stanford.edu/class/cs349d/">Stanford CS - CS349D: Cloud Computing Technology</a></p>
 
                     </main>
 

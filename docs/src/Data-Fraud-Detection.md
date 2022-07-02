@@ -1,4 +1,19 @@
-articles on market opportunity
+# fraud and EU compliance 
+https://www.natlawreview.com/article/eu-blow-against-black-box-and-road-map-to-compliance
+https://seon.io/resources/gdpr-compliance-in-fraud-detection/
+https://www.prnewswire.com/news-releases/eagleai-saas-platform-for-fraud-detection-compliance-and-trading-risk-management-is-now-available-in-aws-marketplace-301370924.html
+[PSD2 compliance](https://oroinc.com/b2b-ecommerce/blog/psd2-compliance-what-you-need-to-know/)
+[fraud trend](https://thepaypers.com/expert-opinion/2020-fraud-trends-are-you-prepared-for-what-the-future-holds--1240302)
+Implementation of Effective Measures against Fraud and Illegal Activities in Cohesion Policies
+(https://eucrim.eu/articles/implementation-effective-measures-against-fraud-and-illegal-activities-cohesion-policies/)
+
+# international password standard
+(https://wpengine.com/resources/passwords-unmasked-infographic/)
+https://www.troyhunt.com/science-of-password-selection/
+https://en.wikipedia.org/wiki/Password_strength
+https://www.lightbluetouchpaper.org/2010/07/29/web-password-standards-2/
+
+# articles on market opportunity
 [1](https://www.gminsights.com/industry-analysis/fraud-detection-and-prevention-market)
 [2](https://www.fortunebusinessinsights.com/industry-reports/fraud-detection-and-prevention-market-100231)
 [3](https://www.grandviewresearch.com/industry-analysis/fraud-detection-prevention-market)
